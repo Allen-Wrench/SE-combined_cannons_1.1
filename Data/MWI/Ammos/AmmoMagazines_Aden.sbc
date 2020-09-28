@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AmmoMagazines>
+
+<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Aden30x113</SubtypeId>
+      </Id>
+      <DisplayName>"30x113" Aden</DisplayName>
+      <Icon>Textures\GUI\AdenAmmo30x113.dds</Icon>
+      <Size>
+        <X>0.25</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>35</Mass>
+      <Volume>16</Volume>
+      <Model>Models\Weapons\Ammo_Box_30x113.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>200</Capacity>
+      <AmmoDefinitionId Subtype="Aden30x113" />
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+	        <MinimumOfferAmount>1</MinimumOfferAmount>
+      <MaximumOfferAmount>99999</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>99999</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </AmmoMagazine>
+
+
+
+  </AmmoMagazines>
+</Definitions>

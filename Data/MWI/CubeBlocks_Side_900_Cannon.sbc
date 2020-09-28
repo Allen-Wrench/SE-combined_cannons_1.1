@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Id>
+        <TypeId>LargeMissileTurret</TypeId>
+        <SubtypeId>Side900Cannon</SubtypeId>
+      </Id>
+      <DisplayName>"900mm" Side Cannon</DisplayName>
+      <Icon>Textures\GUI\SideCannon.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="4" y="4" z="3" />
+      <ModelOffset x="0" y="0" z="1.2" />
+      <Model>Models\large\Side_900_Cannon_Turret.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="50" />
+        <Component Subtype="Construction" Count="35" />
+        <Component Subtype="LargeTube" Count="22" />
+        <Component Subtype="Motor" Count="28" />
+        <Component Subtype="Computer" Count="26" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SteelPlate" Count="42" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+		<MountPoint Side="Back" StartX="1" StartY="1" EndX="3" EndY="3" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\large\Side_900_Cannon_constr_1.mwm"/>
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Side_900_Cannon_constr_2.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>Side900Cannon</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="Side900Cannon" />
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <UseModelIntersection>true</UseModelIntersection>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <MinElevationDegrees>-25</MinElevationDegrees> 
+      <MaxElevationDegrees>25</MaxElevationDegrees>
+      <MinAzimuthDegrees>-45</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>45</MaxAzimuthDegrees>
+      <AiEnabled>true</AiEnabled>
+      <IdleRotation>true</IdleRotation>
+      <MaxRangeMeters>2200</MaxRangeMeters>
+      <RotationSpeed>0.0005</RotationSpeed>
+      <ElevationSpeed>0.0005</ElevationSpeed>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+	  <PCU>750</PCU>
+    </Definition>
+
+
+ 
+
+  </CubeBlocks>
+</Definitions>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Ammos>
+  
+	<!-- https://en.wikipedia.org/wiki/BL_15_inch_Mk_I_naval_gun -->
+	<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>381mm_HE_Shell</SubtypeId> 
+      </Id>
+      <BasicProperties>
+	<DesiredSpeed>955.5</DesiredSpeed> <!-- 800 -->
+	<SpeedVariance>0</SpeedVariance>
+	<MaxTrajectory>2000</MaxTrajectory>
+	<IsExplosive>true</IsExplosive>
+	<BackkickForce>4000</BackkickForce>
+        <PhysicalMaterial>Missile</PhysicalMaterial>
+      </BasicProperties>
+      <MissileProperties>
+	<MissileMass>140</MissileMass>
+	<MissileExplosionRadius>4</MissileExplosionRadius>
+	<MissileModelName>Models\Weapons\MK2Round.mwm</MissileModelName>
+	<MissileAcceleration>0</MissileAcceleration>
+	<MissileInitialSpeed>750</MissileInitialSpeed> <!-- 400 -->
+	<MissileSkipAcceleration>false</MissileSkipAcceleration>
+	<MissileExplosionDamage>23000</MissileExplosionDamage>
+	</MissileProperties>
+    </Ammo>
+	
+  </Ammos>
+</Definitions>

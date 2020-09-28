@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+      
+    <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+      <Id>
+        <TypeId>SmallMissileLauncher</TypeId>
+        <SubtypeId>LittleDavid</SubtypeId>
+      </Id>
+      <DisplayName>Little David</DisplayName>
+      <Icon>Textures\GUI\Little_David.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="6" />
+      <Center x="0" y="0" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\large\Little_David.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="45" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SmallTube" Count="25" />
+        <Component Subtype="Motor" Count="8" />
+        <Component Subtype="MetalGrid" Count="15" />
+        <Component Subtype="LargeTube" Count="20" />
+        <Component Subtype="Computer" Count="6" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="40" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="2" />
+        <MountPoint Side="Bottom" StartX="0" StartY="4" EndX="1" EndY="6" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="1" />
+        <MountPoint Side="Left" StartX="4" StartY="0" EndX="6" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\large\Little_David_constr_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\large\Little_David_constr_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Little_David_constr_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LittleDavid</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>60</BuildTimeSeconds>
+      <WeaponDefinitionId Subtype="LittleDavid" />
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+	  <PCU>1000</PCU>
+    </Definition>
+
+
+    <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+      <Id>
+        <TypeId>SmallMissileLauncher</TypeId>
+        <SubtypeId>BigBertha</SubtypeId>
+      </Id>
+      <DisplayName>Big Bertha</DisplayName>
+      <public>true</public>
+      <Icon>Textures\GUI\Big_Bertha.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="7" y="7" z="40" />
+      <Center x="3" y="3" z="39" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\large\Big_Bertha.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="22000" />
+        <Component Subtype="Construction" Count="7800" />
+        <Component Subtype="MetalGrid" Count="4200" />
+        <Component Subtype="LargeTube" Count="3500" />
+        <Component Subtype="SmallTube" Count="3300" />
+	<Component Subtype="GravityGenerator" Count="420" />
+        <Component Subtype="Motor" Count="820" />
+        <Component Subtype="Computer" Count="640" />
+        <Component Subtype="SteelPlate" Count="6500" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="7" EndY="7" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="7" EndY="10" />
+        <MountPoint Side="Bottom" StartX="0" StartY="20" EndX="7" EndY="40" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="20" EndY="7" />
+        <MountPoint Side="Left" StartX="20" StartY="0" EndX="40" EndY="7" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\large\Big_Bertha_constr_1.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\large\Big_Bertha_constr_2.mwm" />
+        <Model BuildPercentUpperBound="0.75" File="Models\large\Big_Bertha_constr_3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Big_Bertha_constr_4.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>BigBertha</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>320</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <WeaponDefinitionId Subtype="BigBertha" />
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+	  <PCU>5000</PCU>
+    </Definition>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+      <Id>
+        <TypeId>SmallMissileLauncher</TypeId>
+        <SubtypeId>LittleDavidSmall</SubtypeId>
+      </Id>
+      <DisplayName>Little David</DisplayName>
+      <Icon>Textures\GUI\Little_David.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="5" z="30" />
+      <Center x="2" y="2" z="29" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\large\Little_David.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="25" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="SmallTube" Count="15" />
+        <Component Subtype="Motor" Count="8" />
+        <Component Subtype="MetalGrid" Count="15" />
+        <Component Subtype="LargeTube" Count="20" />
+        <Component Subtype="Computer" Count="6" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="40" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="10" />
+        <MountPoint Side="Bottom" StartX="0" StartY="20" EndX="5" EndY="30" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="5" />
+        <MountPoint Side="Left" StartX="20" StartY="0" EndX="30" EndY="5" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\large\Little_David_constr_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\large\Little_David_constr_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Little_David_constr_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LittleDavid</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>60</BuildTimeSeconds>
+      <WeaponDefinitionId Subtype="LittleDavidSmall" />
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+	  <PCU>1000</PCU>
+    </Definition>
+
+
+
+
+  </CubeBlocks>
+</Definitions>

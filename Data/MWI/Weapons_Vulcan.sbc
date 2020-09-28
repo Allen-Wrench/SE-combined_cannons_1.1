@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapons>
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>LargeVulcan</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="480" ShootSoundName="Vulcan" ShotsInBurst="48"  />
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+	  <DeviateShotAngle>0.5</DeviateShotAngle>
+      <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>1</MuzzleFlashLifeSpan>
+      <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
+	  <Effects>
+        <Effect Action="Shoot" Dummy="muzzle_projectile_001" Particle="OKI_50mm_Muzzle_Flash" Loop="false" InstantStop="true"/>
+      </Effects>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="Vulcan20x102" />
+      </AmmoMagazines>
+	  <ReloadTime>4000</ReloadTime>
+    </Weapon>
+
+ 
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>SmallVulcan</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="360" ShootSoundName="Vulcan" ShotsInBurst="56" />
+      <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+	  <DeviateShotAngle>0.2</DeviateShotAngle>
+      <MuzzleFlashLifeSpan>1</MuzzleFlashLifeSpan>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="Vulcan20x102" />
+      </AmmoMagazines>
+	  <ReloadTime>4000</ReloadTime>
+    </Weapon>
+
+  </Weapons>
+</Definitions>

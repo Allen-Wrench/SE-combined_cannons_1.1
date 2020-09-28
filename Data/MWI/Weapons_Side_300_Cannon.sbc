@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapons>
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Side300Cannon</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="60" ShootSoundName="300mmCannon" ShotsInBurst="1" />  
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.1</DeviateShotAngle>
+      <ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>500</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="300mmShell_HE" />
+      </AmmoMagazines>
+	  <ReloadTime>5500</ReloadTime>
+    </Weapon> 
+
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Side300Cannonsmall</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="60" ShootSoundName="300mmCannon" ShotsInBurst="1" />  
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.1</DeviateShotAngle>
+      <ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>500</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="300mmShell_HE" />
+      </AmmoMagazines>
+	  <ReloadTime>5000</ReloadTime>
+    </Weapon> 
+
+
+  </Weapons>
+</Definitions>

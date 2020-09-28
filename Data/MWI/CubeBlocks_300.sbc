@@ -1,0 +1,491 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Id>
+        <TypeId>LargeMissileTurret</TypeId>
+        <SubtypeId>300mmAutoCannon_1</SubtypeId>
+      </Id>
+      <DisplayName>"300mm" Auto Cannon</DisplayName>
+      <Icon>Textures\GUI\300mm_AutoCannon.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\large\CannonBase_1_300.mwm</Model>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="2" />
+      </MountPoints>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="LargeTube" Count="6" />
+        <Component Subtype="Motor" Count="16" />
+        <Component Subtype="Computer" Count="12" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SteelPlate" Count="25" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+	<Model BuildPercentUpperBound="0.50" File="Models\large\Cannon_1_300_constr_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Cannon_1_300_constr_2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>LargeMissileTurret</TypeId>
+          <SubtypeId>300mmAutoCannon_2</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>LargeMissileTurret</TypeId>
+          <SubtypeId>300mmAutoCannon_3</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <BlockPairName>300AutoTurret_1</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="AutoCannon_1_300" />
+      <InventoryMaxVolume>0.5</InventoryMaxVolume>
+      <MinElevationDegrees>-10</MinElevationDegrees>
+      <MaxElevationDegrees>50</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <RotationSpeed>0.0008</RotationSpeed>
+      <ElevationSpeed>0.0008</ElevationSpeed>
+      <IdleRotation>true</IdleRotation>
+      <MaxRangeMeters>1700</MaxRangeMeters>
+      <AiEnabled>true</AiEnabled>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+	  <PCU>500</PCU>
+    </Definition>
+
+
+
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Id>
+        <TypeId>LargeMissileTurret</TypeId>
+        <SubtypeId>300mmAutoCannon_2</SubtypeId>
+      </Id>
+      <DisplayName>"2x300mm" Auto Cannon</DisplayName>
+      <Icon>Textures\GUI\2x300mm_AutoCannon.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\large\CannonBase_2_300.mwm</Model>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
+      </MountPoints>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="20" />
+        <Component Subtype="Construction" Count="50" />
+        <Component Subtype="LargeTube" Count="12" />
+        <Component Subtype="Motor" Count="36" />
+        <Component Subtype="Computer" Count="12" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="35" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+	<Model BuildPercentUpperBound="0.50" File="Models\large\Cannon_2_300_constr_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Cannon_2_300_constr_2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>300AutoTurret_2</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>60</BuildTimeSeconds>
+      <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="AutoCannon_2_300" />
+      <InventoryMaxVolume>0.5</InventoryMaxVolume>
+      <MinElevationDegrees>-10</MinElevationDegrees>
+      <MaxElevationDegrees>50</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <RotationSpeed>0.0007</RotationSpeed>
+      <ElevationSpeed>0.0007</ElevationSpeed>
+      <IdleRotation>true</IdleRotation>
+      <MaxRangeMeters>1700</MaxRangeMeters>
+      <AiEnabled>true</AiEnabled>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+      <GuiVisible>false</GuiVisible>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+	  <PCU>550</PCU>
+    </Definition>
+
+
+
+
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Id>
+        <TypeId>LargeMissileTurret</TypeId>
+        <SubtypeId>300mmAutoCannon_3</SubtypeId>
+      </Id>
+      <DisplayName>"3x300mm" Auto Cannon</DisplayName>
+      <Icon>Textures\GUI\3x300mm_AutoCannon.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="1" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\large\CannonBase_3_300.mwm</Model>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="5" />
+      </MountPoints>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="25" />
+        <Component Subtype="Construction" Count="50" />
+        <Component Subtype="LargeTube" Count="18" />
+        <Component Subtype="Motor" Count="46" />
+        <Component Subtype="Computer" Count="18" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SteelPlate" Count="40" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+	<Model BuildPercentUpperBound="0.50" File="Models\large\Cannon_3_300_constr_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Cannon_3_300_constr_2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>300AutoTurret_3</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>80</BuildTimeSeconds>
+      <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="AutoCannon_3_300" />
+      <InventoryMaxVolume>0.5</InventoryMaxVolume>
+      <MinElevationDegrees>-10</MinElevationDegrees>
+      <MaxElevationDegrees>50</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <RotationSpeed>0.0006</RotationSpeed>
+      <ElevationSpeed>0.0006</ElevationSpeed>
+      <IdleRotation>true</IdleRotation>
+      <MaxRangeMeters>1700</MaxRangeMeters>
+      <AiEnabled>true</AiEnabled>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+      <GuiVisible>false</GuiVisible>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+	  <PCU>600</PCU>
+    </Definition>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Id>
+        <TypeId>LargeMissileTurret</TypeId>
+        <SubtypeId>300mmAutoCannon_1_small</SubtypeId>
+      </Id>
+      <DisplayName>"300mm" Auto Cannon</DisplayName>
+      <Icon>Textures\GUI\300mm_AutoCannon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="5" z="5" />
+      <Center x="2" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\large\CannonBase_1_300.mwm</Model>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="5" />
+      </MountPoints>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="LargeTube" Count="6" />
+        <Component Subtype="Motor" Count="16" />
+        <Component Subtype="Computer" Count="12" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SteelPlate" Count="25" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+	<Model BuildPercentUpperBound="0.50" File="Models\large\Cannon_1_300_constr_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Cannon_1_300_constr_2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>LargeMissileTurret</TypeId>
+          <SubtypeId>300mmAutoCannon_2_small</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>LargeMissileTurret</TypeId>
+          <SubtypeId>300mmAutoCannon_3_small</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <BlockPairName>300AutoTurret_1</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="AutoCannon_1_300_small" />
+      <InventoryMaxVolume>0.5</InventoryMaxVolume>
+      <MinElevationDegrees>-15</MinElevationDegrees>
+      <MaxElevationDegrees>50</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <RotationSpeed>0.003</RotationSpeed>
+      <ElevationSpeed>0.003</ElevationSpeed>
+      <IdleRotation>true</IdleRotation>
+      <MaxRangeMeters>1700</MaxRangeMeters>
+      <AiEnabled>true</AiEnabled>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+	  <PCU>700</PCU>
+    </Definition>
+
+
+
+
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Id>
+        <TypeId>LargeMissileTurret</TypeId>
+        <SubtypeId>300mmAutoCannon_2_small</SubtypeId>
+      </Id>
+      <DisplayName>"2x300mm" Auto Cannon</DisplayName>
+      <Icon>Textures\GUI\2x300mm_AutoCannon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="15" y="5" z="15" />
+      <Center x="7" y="1" z="7" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\large\CannonBase_2_300.mwm</Model>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="15" EndY="15" />
+      </MountPoints>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="20" />
+        <Component Subtype="Construction" Count="50" />
+        <Component Subtype="LargeTube" Count="12" />
+        <Component Subtype="Motor" Count="36" />
+        <Component Subtype="Computer" Count="12" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="35" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+	<Model BuildPercentUpperBound="0.50" File="Models\large\Cannon_2_300_constr_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Cannon_2_300_constr_2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>300AutoTurret_2</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>60</BuildTimeSeconds>
+      <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="AutoCannon_2_300_small" />
+      <InventoryMaxVolume>1.000</InventoryMaxVolume>
+      <MinElevationDegrees>-15</MinElevationDegrees>
+      <MaxElevationDegrees>50</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <RotationSpeed>0.003</RotationSpeed>
+      <ElevationSpeed>0.003</ElevationSpeed>
+      <IdleRotation>true</IdleRotation>
+      <MaxRangeMeters>1700</MaxRangeMeters>
+      <AiEnabled>true</AiEnabled>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+	  <PCU>750</PCU>
+    </Definition>
+
+
+
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Id>
+        <TypeId>LargeMissileTurret</TypeId>
+        <SubtypeId>300mmAutoCannon_3_small</SubtypeId>
+      </Id>
+      <DisplayName>"3x300mm" Auto Cannon</DisplayName>
+      <Icon>Textures\GUI\3x300mm_AutoCannon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="25" y="5" z="25" />
+      <Center x="12" y="1" z="12" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\large\CannonBase_3_300.mwm</Model>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="25" EndY="25" />
+      </MountPoints>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="25" />
+        <Component Subtype="Construction" Count="50" />
+        <Component Subtype="LargeTube" Count="18" />
+        <Component Subtype="Motor" Count="46" />
+        <Component Subtype="Computer" Count="18" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SteelPlate" Count="40" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+	<Model BuildPercentUpperBound="0.50" File="Models\large\Cannon_3_300_constr_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Cannon_3_300_constr_2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>300AutoTurret_3</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>80</BuildTimeSeconds>
+      <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="AutoCannon_3_300_small" />
+      <InventoryMaxVolume>1.000</InventoryMaxVolume>
+      <MinElevationDegrees>-15</MinElevationDegrees>
+      <MaxElevationDegrees>50</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <RotationSpeed>0.003</RotationSpeed>
+      <ElevationSpeed>0.003</ElevationSpeed>
+      <IdleRotation>true</IdleRotation>
+      <MaxRangeMeters>1700</MaxRangeMeters>
+      <AiEnabled>true</AiEnabled>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+	  <PCU>800</PCU>
+    </Definition>
+
+
+  </CubeBlocks>
+</Definitions>

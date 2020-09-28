@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapons>
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>AutoCannon_1_300</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="60" ShootSoundName="300mmCannon" ShotsInBurst="1" />  
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.1</DeviateShotAngle>
+      <ReleaseTimeAfterFire>10000</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>500</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="300mmShell_HE" />
+      </AmmoMagazines>
+	  <ReloadTime>5500</ReloadTime>
+    </Weapon> 
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>AutoCannon_2_300</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="90" ShootSoundName="300mmCannon" ShotsInBurst="2" />
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.2</DeviateShotAngle>
+      <ReleaseTimeAfterFire>10000</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>500</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="300mmShell_HE" />
+      </AmmoMagazines>
+	  <ReloadTime>10500</ReloadTime>
+    </Weapon> 
+
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>AutoCannon_3_300</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="120" ShootSoundName="300mmCannon" ShotsInBurst="3" />
+
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.3</DeviateShotAngle>
+      <ReleaseTimeAfterFire>10000</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>500</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="300mmShell_HE" />
+      </AmmoMagazines>
+	  <ReloadTime>15000</ReloadTime>
+    </Weapon> 
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>AutoCannon_1_300_small</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="60" ShootSoundName="300mmCannon" ShotsInBurst="1" />  
+
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.1</DeviateShotAngle>
+      <ReleaseTimeAfterFire>10000</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>500</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="300mmShell_HE" />
+      </AmmoMagazines>
+	  <ReloadTime>5000</ReloadTime>
+    </Weapon> 
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>AutoCannon_2_300_small</SubtypeId>
+      </Id>
+
+      <MissileAmmoData RateOfFire="60" ShootSoundName="300mmCannon" ShotsInBurst="2" />
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.2</DeviateShotAngle>
+      <ReleaseTimeAfterFire>10000</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>500</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="300mmShell_HE" />
+      </AmmoMagazines>
+	  <ReloadTime>9000</ReloadTime>
+    </Weapon> 
+
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>AutoCannon_3_300_small</SubtypeId>
+      </Id>
+
+      <MissileAmmoData RateOfFire="60" ShootSoundName="300mmCannon" ShotsInBurst="3" />
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.3</DeviateShotAngle>
+      <ReleaseTimeAfterFire>10000</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>500</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="300mmShell_HE" />
+      </AmmoMagazines>
+	  <ReloadTime>13000</ReloadTime>
+    </Weapon> 
+ 
+  </Weapons>
+</Definitions>

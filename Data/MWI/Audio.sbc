@@ -1,0 +1,370 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sounds>
+     <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>Fake</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>0</MaxDistance>
+      <Volume>0.0001</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\OKI14mm.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+	
+ <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>Observer</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>800</MaxDistance>
+	  <Loopable>true</Loopable>
+      <Volume>10</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\OKI_Observer_Audio.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>OKI23mmshot</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>500</MaxDistance>
+      <Volume>0.25</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\OKI14mm.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+<Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>OKI50mmshot</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>700</MaxDistance>
+      <Volume>0.65</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\OKI50mm.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+<Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>OKI76mmshot</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>800</MaxDistance>
+      <Volume>3.00</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\OKI122mm.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+<Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>OKI230mmshot</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>800</MaxDistance>
+      <Volume>6.00</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\OKI230mm.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+<Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>OKI380mmshot</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>1000</MaxDistance>
+      <Volume>6.00</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\OKI380mm.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>300mmCannon</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>750</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <DistantSounds>
+        <DistantSound distanceCrossfade="10" distance="700" sound="3_900DistA" />
+        <DistantSound distanceCrossfade="10" distance="800" sound="3_900DistB" />
+      </DistantSounds>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>15</DynamicMusicAmount>
+      <Volume>1</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Cannon_small.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>900mmCannon</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>850</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <DistantSounds>
+        <DistantSound distanceCrossfade="10" distance="750" sound="3_900DistA" />
+        <DistantSound distanceCrossfade="10" distance="800" sound="3_900DistB" />
+      </DistantSounds>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>15</DynamicMusicAmount>
+      <Volume>1</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Cannon_large.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Vulcan</SubtypeId>
+      </Id>
+      <Category>WEP_TURR</Category>
+      <MaxDistance>250</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>15</DynamicMusicAmount>
+      <DistantSounds>
+        <DistantSound distanceCrossfade="5" distance="150" sound="ArcWepTurretMissileShotDistB" />
+      </DistantSounds>
+      <Volume>0.5</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Minigun_fire.xwm</Start>
+          <End>Audio\Minigun_end.xwm</End>
+        </Wave>
+      </Waves>
+    </Sound>
+
+
+
+
+
+
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>40mmBofors</SubtypeId>
+      </Id>
+      <Category>WEP_TURR</Category>
+      <MaxDistance>250</MaxDistance>
+      <PreventSynchronization>2</PreventSynchronization>
+      <DistantSounds>
+        <DistantSound distanceCrossfade="20" distance="200" sound="ArcWepTurretMissileShotDistA" />
+        <DistantSound distanceCrossfade="10" distance="300" sound="ArcWepTurretMissileShotDistB" />
+      </DistantSounds>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>15</DynamicMusicAmount>
+      <Volume>0.4</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\40mmBofors_d3.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Aden</SubtypeId>
+      </Id>
+      <Category>WEP_TURR</Category>
+      <MaxDistance>250</MaxDistance>
+      <PreventSynchronization>4</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <DistantSounds>
+        <DistantSound distanceCrossfade="5" distance="150" sound="ArcWepTurretMissileShotDistB" />
+      </DistantSounds>
+      <Volume>0.4</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\aden_shot.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>LittleDavid</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>350</MaxDistance>
+      <PreventSynchronization>1</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>15</DynamicMusicAmount>
+      <DistantSounds>
+        <DistantSound distanceCrossfade="20" distance="300" sound="DavidDist" />
+      </DistantSounds>
+      <Volume>6</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Little_David_d3.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>BigBertha</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>450</MaxDistance>
+      <PreventSynchronization>1</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>15</DynamicMusicAmount>
+      <DistantSounds>
+        <DistantSound distanceCrossfade="10" distance="400" sound="BerthaDist" />
+      </DistantSounds>
+      <Volume>2</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Bertha_2.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+
+
+
+
+
+
+<!-- Region distance -->
+
+
+
+
+
+ <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>BerthaDist</SubtypeId>
+      </Id>
+      <Category>WEP_EXPL</Category>
+      <MaxDistance>1600</MaxDistance>
+      <Volume>1</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Bertha_shot.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+
+ <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>DavidDist</SubtypeId>
+      </Id>
+      <Category>WEP_EXPL</Category>
+      <MaxDistance>1200</MaxDistance>
+      <Volume>3</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\David_dis_shot.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+
+
+
+
+
+
+
+ <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>3_900DistA</SubtypeId>
+      </Id>
+      <Category>WEP_EXPL</Category>
+      <MaxDistance>800</MaxDistance>
+      <Volume>1</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Cannon_small_dis_A.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+
+ <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>3_900DistB</SubtypeId>
+      </Id>
+      <Category>WEP_EXPL</Category>
+      <MaxDistance>1100</MaxDistance>
+      <Volume>3</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Cannon_small_dis_B.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+
+
+
+  </Sounds>
+</Definitions>

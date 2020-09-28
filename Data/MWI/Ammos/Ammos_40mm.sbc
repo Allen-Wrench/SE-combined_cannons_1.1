@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Ammos>
+
+	<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>40mm_Wolfram_Slug</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>1155.5</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>700</MaxTrajectory>
+        <BackkickForce>500</BackkickForce>
+        <PhysicalMaterial>Missile</PhysicalMaterial>
+		<IsExplosive>true</IsExplosive>
+      </BasicProperties>
+	  	<MissileProperties>
+			<MissileMass>20</MissileMass>
+			<MissileExplosionRadius>3</MissileExplosionRadius>
+			<MissileModelName>Models\Weapons\pTrace_small.mwm</MissileModelName>
+			<MissileAcceleration>0</MissileAcceleration>
+			<MissileInitialSpeed>950</MissileInitialSpeed>
+			<MissileSkipAcceleration>false</MissileSkipAcceleration>
+			<MissileExplosionDamage>1200</MissileExplosionDamage>
+		</MissileProperties>
+	  
+    </Ammo>
+
+
+	<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>40mm_Airburst_Shell</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>1155.5</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>700</MaxTrajectory>
+        <BackkickForce>500</BackkickForce>
+        <PhysicalMaterial>Missile</PhysicalMaterial>
+		<IsExplosive>true</IsExplosive>
+      </BasicProperties>
+		<MissileProperties>
+			<MissileMass>20</MissileMass>
+			<MissileExplosionRadius>2</MissileExplosionRadius>
+			<MissileModelName>Models\Weapons\40mmShell.mwm</MissileModelName>
+			<MissileAcceleration>0</MissileAcceleration>
+			<MissileInitialSpeed>1050</MissileInitialSpeed>
+			<MissileSkipAcceleration>false</MissileSkipAcceleration>
+			<MissileExplosionDamage>1600</MissileExplosionDamage>
+		</MissileProperties>
+    </Ammo>
+
+  </Ammos>
+</Definitions>

@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapons>
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>OKIObserverWEP</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="60" ShootSoundName="Observer" ShotsInBurst="1" />
+      <NoAmmoSoundName>Fake</NoAmmoSoundName>
+      <DeviateShotAngle>0</DeviateShotAngle>
+      <ReleaseTimeAfterFire>1</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>1</MuzzleFlashLifeSpan>
+      <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="OKIObserverMAG" />
+      </AmmoMagazines>    
+      <ReloadTime>0</ReloadTime>      
+    </Weapon>
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>OKI23mmFG</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="450" ShootSoundName="OKI23mmshot" ShotsInBurst="120" />
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.01</DeviateShotAngle>
+      <ReleaseTimeAfterFire>40</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>10</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="OKI23mmAmmo" />
+      </AmmoMagazines>          
+      <ReloadTime>2000</ReloadTime>  
+    </Weapon>
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>OKI23mmDG</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="1800" ShootSoundName="OKI23mmshot" ShotsInBurst="60" />
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>2.5</DeviateShotAngle>
+      <ReleaseTimeAfterFire>40</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>1</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="OKI23mmAmmo" />
+      </AmmoMagazines>      
+      <ReloadTime>5000</ReloadTime>
+    </Weapon>
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>OKI23mmSG</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="450" ShootSoundName="OKI23mmshot" ShotsInBurst="120" />
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.05</DeviateShotAngle>
+      <ReleaseTimeAfterFire>40</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>1</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="OKI23mmAmmo" />
+      </AmmoMagazines>
+      <ReloadTime>2000</ReloadTime>
+    </Weapon>
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>OKI50mmAG</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="120" ShootSoundName="OKI50mmshot" ShotsInBurst="18" /> 
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.1</DeviateShotAngle>
+      <ReleaseTimeAfterFire>240</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>1</MuzzleFlashLifeSpan> 
+      <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
+      <Effects>
+        <Effect Action="Shoot" Dummy="muzzle_projectile001" Particle="OKI_50mm_Muzzle_Flash" Loop="false" InstantStop="true"/>
+      </Effects>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="OKI50mmAmmo" />
+      </AmmoMagazines>
+      <ReloadTime>3500</ReloadTime>
+    </Weapon>
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>OKI50mmGAT</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="150" ShootSoundName="OKI50mmshot" ShotsInBurst="36" /> 
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.5</DeviateShotAngle>
+      <ReleaseTimeAfterFire>240</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>5</MuzzleFlashLifeSpan> 
+      <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
+      <Effects>
+        <Effect Action="Shoot" Dummy="muzzle_projectile_001" Particle="OKI_50mm_Muzzle_Flash" Loop="false" InstantStop="true"/>
+      </Effects>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="OKI50mmAmmo" />
+      </AmmoMagazines>
+      <ReloadTime>12000</ReloadTime>
+    </Weapon>
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>OKI50mmSG</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="180" ShootSoundName="OKI50mmshot" ShotsInBurst="18"/>
+      <ShotSoundName>OKI50mmshot1</ShotSoundName>
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.1</DeviateShotAngle>
+      <ReleaseTimeAfterFire>240</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>1</MuzzleFlashLifeSpan>
+      <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
+      <Effects>
+        <Effect Action="Shoot" Dummy="muzzle_projectile001" Particle="OKI_50mm_Muzzle_Flash" Loop="false" InstantStop="true"/>
+      </Effects>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="OKI50mmAmmo" />
+      </AmmoMagazines>
+      <ReloadTime>4000</ReloadTime>
+    </Weapon>
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>OKI50mmSGFIXED</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="92" ShootSoundName="OKI50mmshot" ShotsInBurst="18"/>
+      <ShotSoundName>OKI50mmshot1</ShotSoundName>
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.01</DeviateShotAngle>
+      <ReleaseTimeAfterFire>240</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>1</MuzzleFlashLifeSpan>
+      <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
+      <Effects>
+        <Effect Action="Shoot" Dummy="muzzle_projectile001" Particle="OKI_50mm_Muzzle_Flash" Loop="false" InstantStop="true"/>
+      </Effects>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="OKI50mmAmmo" />
+      </AmmoMagazines>
+      <ReloadTime>4000</ReloadTime>
+    </Weapon>
+
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>OKI76mmASG</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="30" ShootSoundName="OKI76mmshot" ShotsInBurst="1"/>
+      <ShotSoundName>OKI76mmshot</ShotSoundName>
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.5</DeviateShotAngle>
+      <ReleaseTimeAfterFire>1000</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>1</MuzzleFlashLifeSpan>
+      <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
+      <Effects>
+        <Effect Action="Shoot" Dummy="muzzle_projectile001" Particle="OKI_122mm_Muzzle_Flash" Loop="false" InstantStop="true"/>
+      </Effects>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="OKI122mmAmmo" />
+      </AmmoMagazines>
+      <ReloadTime>2000</ReloadTime>
+    </Weapon>
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>OKI230mmBC</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="120" ShootSoundName="OKI230mmshot" ShotsInBurst="1"/>
+      <ShotSoundName>OKI230mmshot</ShotSoundName>
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.25</DeviateShotAngle>
+      <ReleaseTimeAfterFire>1000</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>5</MuzzleFlashLifeSpan>
+      <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
+      <Effects>
+        <Effect Action="Shoot" Dummy="barrel" Particle="OKI_230mm_Muzzle_Flash" Loop="false" InstantStop="true"/>
+      </Effects>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="OKI230mmAmmo" />
+      </AmmoMagazines>
+      <ReloadTime>5000</ReloadTime>
+    </Weapon> 
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>OKI230mmBAT</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="50" ShootSoundName="OKI230mmshot" ShotsInBurst="3" />
+      <ShotSoundName>OKI230mmshot1</ShotSoundName>
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>1.0</DeviateShotAngle>
+      <ReleaseTimeAfterFire>1000</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>5</MuzzleFlashLifeSpan>
+      <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
+      <Effects>
+        <Effect Action="Shoot" Dummy="muzzle_projectile001" Particle="OKI_230mm_Muzzle_Flash" Loop="false" InstantStop="true"/>
+      </Effects>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="OKI230mmAmmo" />
+      </AmmoMagazines>      
+      <ReloadTime>7500</ReloadTime>
+    </Weapon>
+
+  </Weapons>
+</Definitions>

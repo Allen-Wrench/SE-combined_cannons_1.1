@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Ammos>
+
+<!-- =========================OKI weapons=========================== -->
+
+<Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+     <Id>
+      <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>OKIObserverAMMO</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>1000</DesiredSpeed>
+        <SpeedVariance>0.5</SpeedVariance>
+        <MaxTrajectory>2000</MaxTrajectory>
+        <BackkickForce>0</BackkickForce>
+        <PhysicalMaterial>GunBullet</PhysicalMaterial>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileHitImpulse>0</ProjectileHitImpulse>
+        <ProjectileMassDamage>0</ProjectileMassDamage>
+        <ProjectileHealthDamage>0</ProjectileHealthDamage>
+	<ProjectileTrailScale>2</ProjectileTrailScale>
+	<ProjectileTrailColor x="1" y="0" z="0" />
+	<ProjectileTrailProbability>1.0</ProjectileTrailProbability>
+      </ProjectileProperties>
+    </Ammo>
+
+<Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>OKI23mmAmmoPars</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>650</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>900</MaxTrajectory>
+        <BackkickForce>100</BackkickForce>
+        <PhysicalMaterial>GunBullet</PhysicalMaterial>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileHitImpulse>2</ProjectileHitImpulse>
+        <ProjectileMassDamage>500</ProjectileMassDamage>
+        <ProjectileHealthDamage>66</ProjectileHealthDamage>
+	<ProjectileTrailScale>0.15</ProjectileTrailScale>
+	<ProjectileTrailColor x="0.5" y="0.75" z="0.5" />
+	<ProjectileTrailProbability>1.0</ProjectileTrailProbability>        
+	<HeadShot>true</HeadShot>
+      </ProjectileProperties>
+    </Ammo>
+
+<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+	      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>OKI50mmAmmoPars</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>1055.5</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>800</MaxTrajectory>
+        <BackkickForce>700</BackkickForce>
+        <PhysicalMaterial>Missile</PhysicalMaterial>
+		<IsExplosive>true</IsExplosive>
+      </BasicProperties>
+	<MissileProperties>
+		<MissileMass>20</MissileMass>
+		<MissileExplosionRadius>2</MissileExplosionRadius>
+		<MissileModelName>Models\Ammo\OKI50mmAmmo.mwm</MissileModelName>
+		<MissileAcceleration>0</MissileAcceleration>
+		<MissileInitialSpeed>850</MissileInitialSpeed>
+		<MissileSkipAcceleration>false</MissileSkipAcceleration>
+		<MissileExplosionDamage>2000</MissileExplosionDamage>
+	</MissileProperties>  
+	
+    </Ammo>
+
+<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>OKI76mmAmmoPars</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>955.5</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>800</MaxTrajectory>
+        <BackkickForce>1000</BackkickForce>
+        <PhysicalMaterial>Missile</PhysicalMaterial>
+		<IsExplosive>true</IsExplosive>
+      </BasicProperties>
+	<MissileProperties>
+		<MissileMass>40</MissileMass>
+		<MissileExplosionRadius>3</MissileExplosionRadius>
+		<MissileModelName>Models\Ammo\OKI76mmAmmo.mwm</MissileModelName>
+		<MissileAcceleration>0</MissileAcceleration>
+		<MissileInitialSpeed>750</MissileInitialSpeed>
+		<MissileSkipAcceleration>false</MissileSkipAcceleration>
+		<MissileExplosionDamage>8000</MissileExplosionDamage>
+	</MissileProperties>
+    </Ammo>
+
+<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>OKI230mmAmmoPars</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>955.5</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>1400</MaxTrajectory>
+        <BackkickForce>10</BackkickForce>
+		<PhysicalMaterial>Missile</PhysicalMaterial>
+		<IsExplosive>true</IsExplosive>
+      </BasicProperties>
+	<MissileProperties>
+		<MissileMass>45</MissileMass>
+		<MissileExplosionRadius>3</MissileExplosionRadius>
+		<MissileModelName>Models\Ammo\OKI230mmAmmo.mwm</MissileModelName>
+		<MissileAcceleration>0</MissileAcceleration>
+		<MissileInitialSpeed>750</MissileInitialSpeed>
+		<MissileSkipAcceleration>false</MissileSkipAcceleration>
+		<MissileExplosionDamage>11000</MissileExplosionDamage>
+	</MissileProperties>  
+    </Ammo>
+
+  </Ammos>
+</Definitions>

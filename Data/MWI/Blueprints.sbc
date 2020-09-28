@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>   
+
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>300mmShell_HE</SubtypeId>
+      </Id>
+      <DisplayName>"300mm" Shell HE</DisplayName>
+      <Icon>Textures\GUI\300mmShell_HE.dds</Icon>
+      <Prerequisites>
+        <Item Amount="400" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="55" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="300mmShell_HE" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+
+
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>900mmShell_HE</SubtypeId>
+      </Id>
+      <DisplayName>"900mm" Shell HE</DisplayName>
+      <Icon>Textures\GUI\900mmShell_HE.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2000" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Magnesium" />
+		<Item Amount="100" TypeId="Ingot" SubtypeId="Cobalt" />
+		<Item Amount="10" TypeId="Ingot" SubtypeId="Uranium" />		
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="900mmShell_HE" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Vulcan20x102</SubtypeId>
+      </Id>
+      <DisplayName>35mm Vulcan</DisplayName>
+      <Icon>Textures\GUI\GatlingAmmo20x102.dds</Icon>
+      <Prerequisites>
+        <Item Amount="140" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="48" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="Vulcan20x102" />
+      <BaseProductionTimeInSeconds>7</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+
+
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bofors40mm</SubtypeId>
+      </Id>
+      <DisplayName>"40mm" Bofors</DisplayName>
+      <Icon>Textures\GUI\40mmShell.dds</Icon>
+      <Prerequisites>
+        <Item Amount="110" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="32" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="Bofors40mm" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Aden30x113</SubtypeId>
+      </Id>
+      <DisplayName>"30x113" Aden</DisplayName>
+      <Icon>Textures\GUI\AdenAmmo30x113.dds</Icon>
+      <Prerequisites>
+        <Item Amount="180" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="32" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="Aden30x113" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LittleDavid</SubtypeId>
+      </Id>
+      <DisplayName>Little David Shell</DisplayName>
+      <Icon>Textures\GUI\Little_DavidShell.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1500" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="250" TypeId="Ingot" SubtypeId="Magnesium" />
+		<Item Amount="40" TypeId="Ingot" SubtypeId="Cobalt" />
+		<Item Amount="10" TypeId="Ingot" SubtypeId="Uranium" />			
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="LittleDavid" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BigBertha</SubtypeId>
+      </Id>
+      <DisplayName>Big Bertha Shell</DisplayName>
+      <Icon>Textures\GUI\Big_BerthaShell.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3100" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="550" TypeId="Ingot" SubtypeId="Magnesium" />
+		<Item Amount="250" TypeId="Ingot" SubtypeId="Cobalt" />
+		<Item Amount="100" TypeId="Ingot" SubtypeId="Uranium" />			
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="BigBertha" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+
+   <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>OKIObserverMAG</SubtypeId>
+      </Id>
+      <DisplayName>OKI Targetter Charge (x1000)</DisplayName>
+      <Icon>icons\OKI23mmDGAmmo.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="OKIObserverMAG" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint> 
+
+   <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>OKI23mmAmmo</SubtypeId>
+      </Id>
+      <DisplayName>OKI 14.5mm Ammo Drum (x240)</DisplayName>
+      <Icon>icons\OKI23mmDGAmmo.dds</Icon>
+      <Prerequisites>
+        <Item Amount="220" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="40" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="OKI23mmAmmo" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+   <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>OKI50mmAmmo</SubtypeId>
+      </Id>
+      <DisplayName>OKI 50mm Precision Shells (x6)</DisplayName>
+      <Icon>icons\OKI50mmAGAmmo.dds</Icon>
+      <Prerequisites>
+        <Item Amount="120" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="24" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="OKI50mmAmmo" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+   <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>OKI122mmAmmo</SubtypeId>
+      </Id>
+      <DisplayName>OKI 122mm Assault Shells (x3)</DisplayName>
+      <Icon>icons\OKI76mmASGAmmo.dds</Icon>
+      <Prerequisites>
+        <Item Amount="140" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="15" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="OKI122mmAmmo" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+   <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>OKI230mmAmmo</SubtypeId>
+      </Id>
+      <DisplayName>OKI 230mm Battlecannon Shell (x1)</DisplayName>
+      <Icon>icons\OKI230mmBCAmmo.dds</Icon>
+      <Prerequisites>
+        <Item Amount="280" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="40" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="OKI230mmAmmo" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>

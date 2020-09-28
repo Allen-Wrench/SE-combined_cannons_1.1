@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchBlocks>
+  
+	<!-- CANNON PROGRESSION -->
+  
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeMissileTurret" Subtype="BattleshipCannon" />
+      <UnlockedByGroups>
+        <GroupSubtype>8</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeMissileTurret" Subtype="BattleshipCannonMK2" />
+      <UnlockedByGroups>
+        <GroupSubtype>MWI_Cannon_Basic</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeMissileTurret" Subtype="BattleshipCannonMK22" />
+      <UnlockedByGroups>
+        <GroupSubtype>MWI_Cannon_Basic</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeMissileTurret" Subtype="BattleshipCannonMK3" />
+      <UnlockedByGroups>
+        <GroupSubtype>MWI_Cannon_Stack_Load</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeMissileTurret" Subtype="BFTriCannon" />
+      <UnlockedByGroups>
+        <GroupSubtype>MWI_Cannon_Recoil_Comp</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	
+	
+	<!-- DEFENSE PROGRESSION -->
+	
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeMissileTurret" Subtype="HeavyDefenseTurret" />
+      <UnlockedByGroups>
+        <GroupSubtype>8</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeMissileTurret" Subtype="TelionAF" />
+      <UnlockedByGroups>
+        <GroupSubtype>MWI_Defense_Basic</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeMissileTurret" Subtype="TelionAF_small" />
+      <UnlockedByGroups>
+        <GroupSubtype>MWI_Defense_Basic</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeGatlingTurret" Subtype="TelionAMACM" />
+      <UnlockedByGroups>
+        <GroupSubtype>MWI_Defense_Denial</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeMissileTurret" Subtype="TelionAFGen2" />
+      <UnlockedByGroups>
+        <GroupSubtype>MWI_Defense_Point</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	
+	
+	<!-- SALVO PROGRESSION -->
+	
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_SmallMissileLauncherReload" Subtype="Static150mm" />
+      <UnlockedByGroups>
+        <GroupSubtype>MWI_Salvo_Basic</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_SmallMissileLauncherReload" Subtype="Static30mm" />
+      <UnlockedByGroups>
+        <GroupSubtype>MWI_Salvo_Basic</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_SmallMissileLauncherReload" Subtype="StaticBattery1" />
+      <UnlockedByGroups>
+        <GroupSubtype>MWI_Salvo_Compact_Design</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_SmallMissileLauncherReload" Subtype="StaticBattery1Stack" />
+      <UnlockedByGroups>
+        <GroupSubtype>MWI_Salvo_Compact_Design</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_SmallMissileLauncherReload" Subtype="StaticBattery2" />
+      <UnlockedByGroups>
+        <GroupSubtype>MWI_Salvo_Telion_Infusion</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	
+	
+	<!-- SUPER WEAPON PROGRESSION -->
+	
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_VirtualMass" Subtype="VirtualMassLarge" />
+      <UnlockedByGroups>
+        <GroupSubtype>26</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_VirtualMass" Subtype="VirtualMassSmall" />
+      <UnlockedByGroups>
+        <GroupSubtype>26</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_JumpDrive" Subtype="LargeJumpDrive" />
+      <UnlockedByGroups>
+        <GroupSubtype>MWI_Dense_Materials</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeMissileTurret" Subtype="BFG_M" />
+      <UnlockedByGroups>
+        <GroupSubtype>MWI_Conductors</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+  </ResearchBlocks>
+</Definitions>

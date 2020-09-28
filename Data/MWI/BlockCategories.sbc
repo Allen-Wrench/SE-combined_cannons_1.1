@@ -1,0 +1,294 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+  
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ShipWeapons</DisplayName>
+      <Name>Weapons</Name>
+      <SearchBlocks>false</SearchBlocks>
+      <IsShipCategory>true</IsShipCategory>
+      <IsBlockCategory>false</IsBlockCategory>
+      <ItemIds>
+
+<!-- Rider Large Grid Weapons -->	  
+	<string>LargeMissileTurret/300mmAutoCannon_1</string>
+	<string>LargeMissileTurret/300mmAutoCannon_2</string>
+	<string>LargeMissileTurret/300mmAutoCannon_3</string>
+	<string>LargeMissileTurret/900mmAutoCannon_1</string>
+	<string>LargeMissileTurret/900mmAutoCannon_2</string>
+	<string>LargeMissileTurret/900mmAutoCannon_3</string>
+	<string>LargeGatlingTurret/LargeVulcan</string>
+	<string>LargeMissileTurret/40mmBofors</string>
+	<string>LargeGatlingTurret/LargeAden</string>
+	<string>SmallMissileLauncher/LittleDavid</string>
+	<string>SmallMissileLauncher/BigBertha</string>
+	<string>LargeMissileTurret/Side300Cannon</string>
+	<string>LargeMissileTurret/Side900Cannon</string>
+
+<!-- Rider Small Grid Weapons -->
+	<string>LargeMissileTurret/300mmAutoCannon_1_small</string>
+	<string>LargeMissileTurret/300mmAutoCannon_2_small</string>
+	<string>LargeMissileTurret/300mmAutoCannon_3_small</string>
+	<string>LargeMissileTurret/900mmAutoCannon_1_small</string>
+	<string>LargeMissileTurret/900mmAutoCannon_2_small</string>
+	<string>LargeMissileTurret/900mmAutoCannon_3_small</string>
+	<string>LargeGatlingTurret/SmallVulcan</string>
+	<string>LargeMissileTurret/40mmBofors_small</string>
+	<string>LargeGatlingTurret/SmallAden</string>
+	<string>LargeGatlingTurret/SmallSentryGun</string>
+	<string>LargeGatlingTurret/SmallSentryGatling</string>
+	<string>LargeGatlingTurret/MiniVulcan</string>
+	<string>LargeMissileTurret/SentryMissileTurret</string>
+	<string>SmallGatlingGun/VulcanGun</string>
+	<string>LargeMissileTurret/Side300Cannonsmall</string>
+	<string>SmallMissileLauncher/LittleDavidSmall</string>
+
+	<!-- Mexpex Turret Cannons -->
+	<string>LargeMissileTurret/HeavyDefenseTurret</string>		
+	<string>LargeMissileTurret/BattleshipCannon</string>	
+	<string>LargeMissileTurret/BattleshipCannonMK2</string>
+	<string>LargeMissileTurret/BattleshipCannonMK22</string>	
+	<string>LargeMissileTurret/BattleshipCannonMK3</string>
+	<string>LargeMissileTurret/BFTriCannon</string>	
+	<string>LargeMissileTurret/BFG_M</string>
+	
+	<!-- Mexpex Fixed Cannons -->
+	<string>SmallMissileLauncherReload/StaticBattery1</string>
+	<string>SmallMissileLauncherReload/StaticBattery1Stack</string>
+	<string>SmallMissileLauncherReload/StaticBattery2</string>
+	
+	<!-- Mexpex Defense Turrets -->
+	<string>LargeMissileTurret/TelionAFGen2</string>
+	<string>LargeMissileTurret/TelionAF</string>
+	<string>LargeGatlingTurret/TelionAMACM</string>
+	
+	<!-- Okim Large Weapons -->
+	<string>LargeGatlingTurret/OKIDesignator</string>	
+	<string>LargeMissileTurret/OKIHvyMissileTurret</string>	
+	<string>SmallMissileLauncher/OKI230mmBCfixed</string>
+  	<string>LargeGatlingTurret/OKI230mmBC</string>
+  	<string>LargeGatlingTurret/OKI230mmBAT</string>
+  	<string>LargeGatlingTurret/OKI230mmBCBRD</string>
+  	<string>LargeGatlingTurret/OKI23mmSG</string>
+  	<string>LargeGatlingTurret/OKI50mmSG</string>
+  	<string>LargeGatlingTurret/OKI50mmGat</string>
+  	<string>SmallMissileLauncher/OKI50mmFGAT</string>
+	
+<!-- Okim Small Weapons -->
+	<string>SmallGatlingGun/OKI23mmDGfixed</string>
+	<string>SmallGatlingGun/OKI50mmSGfixed</string>
+  	<string>SmallGatlingGun/OKI122mmAGfixed</string>
+	<string>LargeGatlingTurret/OKI14mmVT</string>
+	<string>LargeGatlingTurret/OKI50mmVT</string>
+	<string>LargeGatlingTurret/OKI122mmVT</string>
+	<string>LargeGatlingTurret/OKIObserverSM</string>
+	<string>LargeMissileTurret/OKIMLVT</string>
+	<string>LargeGatlingTurret/OKI23mmDG</string>
+  	<string>LargeGatlingTurret/OKI50mmAG</string>
+  	<string>LargeGatlingTurret/OKI76mmAG</string>
+	<string>LargeGatlingTurret/OKI76mmBSD</string>
+
+    </ItemIds>
+    </Category>
+    
+	
+	    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ShipWeapons</DisplayName>
+      <Name>ShipWeapons</Name>
+      <SearchBlocks>false</SearchBlocks>
+      <IsShipCategory>true</IsShipCategory>
+      <IsBlockCategory>false</IsBlockCategory>
+	  <IsToolCategory>true</IsToolCategory>
+      <ItemIds>
+
+<!-- Rider Large Grid Weapons -->	  
+	<string>LargeMissileTurret/300mmAutoCannon_1</string>
+	<string>LargeMissileTurret/300mmAutoCannon_2</string>
+	<string>LargeMissileTurret/300mmAutoCannon_3</string>
+	<string>LargeMissileTurret/900mmAutoCannon_1</string>
+	<string>LargeMissileTurret/900mmAutoCannon_2</string>
+	<string>LargeMissileTurret/900mmAutoCannon_3</string>
+	<string>LargeGatlingTurret/LargeVulcan</string>
+	<string>LargeMissileTurret/40mmBofors</string>
+	<string>LargeGatlingTurret/LargeAden</string>
+	<string>SmallMissileLauncher/LittleDavid</string>
+	<string>SmallMissileLauncher/BigBertha</string>
+	<string>LargeMissileTurret/Side300Cannon</string>
+	<string>LargeMissileTurret/Side900Cannon</string>
+
+<!-- Rider Small Grid Weapons -->
+	<string>LargeMissileTurret/300mmAutoCannon_1_small</string>
+	<string>LargeMissileTurret/300mmAutoCannon_2_small</string>
+	<string>LargeMissileTurret/300mmAutoCannon_3_small</string>
+	<string>LargeMissileTurret/900mmAutoCannon_1_small</string>
+	<string>LargeMissileTurret/900mmAutoCannon_2_small</string>
+	<string>LargeMissileTurret/900mmAutoCannon_3_small</string>
+	<string>LargeGatlingTurret/SmallVulcan</string>
+	<string>LargeMissileTurret/40mmBofors_small</string>
+	<string>LargeGatlingTurret/SmallAden</string>
+	<string>LargeGatlingTurret/SmallSentryGun</string>
+	<string>LargeGatlingTurret/SmallSentryGatling</string>
+	<string>LargeGatlingTurret/MiniVulcan</string>
+	<string>LargeMissileTurret/SentryMissileTurret</string>
+	<string>SmallGatlingGun/VulcanGun</string>
+	<string>LargeMissileTurret/Side300Cannonsmall</string>
+	<string>SmallMissileLauncher/LittleDavidSmall</string>
+
+	<!-- Mexpex Turret Cannons -->
+	<string>LargeMissileTurret/HeavyDefenseTurret</string>		
+	<string>LargeMissileTurret/BattleshipCannon</string>	
+	<string>LargeMissileTurret/BattleshipCannonMK2</string>
+	<string>LargeMissileTurret/BattleshipCannonMK22</string>	
+	<string>LargeMissileTurret/BattleshipCannonMK3</string>
+	<string>LargeMissileTurret/BFTriCannon</string>	
+	<string>LargeMissileTurret/BFG_M</string>
+	
+	<!-- Mexpex Fixed Cannons -->
+	<string>SmallMissileLauncherReload/StaticBattery1</string>
+	<string>SmallMissileLauncherReload/StaticBattery1Stack</string>
+	<string>SmallMissileLauncherReload/StaticBattery2</string>
+	
+	<!-- Mexpex Defense Turrets -->
+	<string>LargeMissileTurret/TelionAFGen2</string>
+	<string>LargeMissileTurret/TelionAF</string>
+	<string>LargeGatlingTurret/TelionAMACM</string>
+	
+	<!-- Okim Large Weapons -->
+	<string>LargeGatlingTurret/OKIDesignator</string>	
+	<string>LargeMissileTurret/OKIHvyMissileTurret</string>	
+	<string>SmallMissileLauncher/OKI230mmBCfixed</string>
+  	<string>LargeGatlingTurret/OKI230mmBC</string>
+  	<string>LargeGatlingTurret/OKI230mmBAT</string>
+  	<string>LargeGatlingTurret/OKI230mmBCBRD</string>
+  	<string>LargeGatlingTurret/OKI23mmSG</string>
+  	<string>LargeGatlingTurret/OKI50mmSG</string>
+  	<string>LargeGatlingTurret/OKI50mmGat</string>
+  	<string>SmallMissileLauncher/OKI50mmFGAT</string>
+	
+<!-- Okim Small Weapons -->
+	<string>SmallGatlingGun/OKI23mmDGfixed</string>
+	<string>SmallGatlingGun/OKI50mmSGfixed</string>
+  	<string>SmallGatlingGun/OKI122mmAGfixed</string>
+	<string>LargeGatlingTurret/OKI14mmVT</string>
+	<string>LargeGatlingTurret/OKI50mmVT</string>
+	<string>LargeGatlingTurret/OKI122mmVT</string>
+	<string>LargeGatlingTurret/OKIObserverSM</string>
+	<string>LargeMissileTurret/OKIMLVT</string>
+	<string>LargeGatlingTurret/OKI23mmDG</string>
+  	<string>LargeGatlingTurret/OKI50mmAG</string>
+  	<string>LargeGatlingTurret/OKI76mmAG</string>
+	<string>LargeGatlingTurret/OKI76mmBSD</string>
+
+    </ItemIds>
+    </Category>
+	
+	
+	
+	
+<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Weapons - Rider</DisplayName>
+      <Name>z-mod-rider-Cannon</Name>
+      <ItemIds>
+
+	<string>LargeMissileTurret/300mmAutoCannon_1</string>
+	<string>LargeMissileTurret/300mmAutoCannon_2</string>
+	<string>LargeMissileTurret/300mmAutoCannon_3</string>
+	<string>LargeMissileTurret/900mmAutoCannon_1</string>
+	<string>LargeMissileTurret/900mmAutoCannon_2</string>
+	<string>LargeMissileTurret/900mmAutoCannon_3</string>
+	<string>LargeGatlingTurret/LargeVulcan</string>
+	<string>LargeMissileTurret/40mmBofors</string>
+	<string>LargeGatlingTurret/LargeAden</string>
+	<string>LargeMissileTurret/Side300Cannon</string>
+	<string>LargeMissileTurret/Side900Cannon</string>
+	<string>LargeGatlingTurret/SmallSentryGun</string>
+	<string>LargeGatlingTurret/SmallSentryGatling</string>
+	<string>LargeGatlingTurret/MiniVulcan</string>
+	<string>LargeMissileTurret/SentryMissileTurret</string>
+	<string>SmallGatlingGun/VulcanGun</string>
+	<string>SmallMissileLauncher/LittleDavid</string>
+	<string>SmallMissileLauncher/BigBertha</string>
+      </ItemIds>
+ </Category>
+
+<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+	<Id>
+		<TypeId>GuiBlockCategoryDefinition</TypeId>
+		<SubtypeId/>
+	</Id>
+	<DisplayName>Weapons - Mexpex</DisplayName>
+	<Name>z-mod-mexpex-weapons</Name>
+	<ItemIds>
+	<!-- Turret Cannons -->
+	<string>LargeMissileTurret/HeavyDefenseTurret</string>		
+	<string>LargeMissileTurret/BattleshipCannon</string>	
+	<string>LargeMissileTurret/BattleshipCannonMK2</string>
+	<string>LargeMissileTurret/BattleshipCannonMK22</string>	
+	<string>LargeMissileTurret/BattleshipCannonMK3</string>
+	<string>LargeMissileTurret/BFTriCannon</string>	
+	<string>LargeMissileTurret/BFG_M</string>
+	
+	<!-- Fixed Cannons -->
+	<string>SmallMissileLauncherReload/StaticBattery1</string>
+	<string>SmallMissileLauncherReload/StaticBattery1Stack</string>
+	<string>SmallMissileLauncherReload/StaticBattery2</string>
+	<string>SmallMissileLauncher/Static150mm</string>
+	<string>SmallMissileLauncher/Static30mm</string>
+	
+	<!-- Defense Turrets -->
+	<string>LargeMissileTurret/TelionAFGen2</string>
+	<string>LargeMissileTurret/TelionAF</string>
+	<string>LargeGatlingTurret/TelionAMACM</string>
+	</ItemIds>
+</Category>
+
+<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+	<Id>
+		<TypeId>GuiBlockCategoryDefinition</TypeId>
+		<SubtypeId/>
+	</Id>
+	<DisplayName>Weapons - Okim</DisplayName>
+	<Name>z-mod-okim-weapons</Name>
+	<ItemIds>
+	<!-- Okim Large Weapons -->
+	<string>LargeGatlingTurret/OKIDesignator</string>	
+	<string>LargeMissileTurret/OKIHvyMissileTurret</string>	
+	<string>SmallMissileLauncher/OKI230mmBCfixed</string>
+  	<string>LargeGatlingTurret/OKI230mmBC</string>
+  	<string>LargeGatlingTurret/OKI230mmBAT</string>
+  	<string>LargeGatlingTurret/OKI230mmBCBRD</string>
+  	<string>LargeGatlingTurret/OKI23mmSG</string>
+  	<string>LargeGatlingTurret/OKI50mmSG</string>
+  	<string>LargeGatlingTurret/OKI50mmGat</string>
+  	<string>SmallMissileLauncher/OKI50mmFGAT</string>
+	
+<!-- Okim Small Weapons -->
+	<string>SmallGatlingGun/OKI23mmDGfixed</string>
+	<string>SmallGatlingGun/OKI50mmSGfixed</string>
+  	<string>SmallGatlingGun/OKI122mmAGfixed</string>
+	<string>LargeGatlingTurret/OKI14mmVT</string>
+	<string>LargeGatlingTurret/OKI50mmVT</string>
+	<string>LargeGatlingTurret/OKI122mmVT</string>
+	<string>LargeGatlingTurret/OKIObserverSM</string>
+	<string>LargeMissileTurret/OKIMLVT</string>
+	<string>LargeGatlingTurret/OKI23mmDG</string>
+  	<string>LargeGatlingTurret/OKI50mmAG</string>
+  	<string>LargeGatlingTurret/OKI76mmAG</string>
+	<string>LargeGatlingTurret/OKI76mmBSD</string>
+	</ItemIds>
+</Category>
+
+  </CategoryClasses>
+</Definitions>

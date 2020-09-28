@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchBlocks>
+
+<!-- OKI vanilla GATLINGS -->
+
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Decoy" Subtype="LargeDecoy" />
+      <UnlockedByGroups>
+        <GroupSubtype>2111</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_SmallGatlingGun" Subtype="" />
+      <UnlockedByGroups>
+        <GroupSubtype>4</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeGatlingTurret" Subtype="" />
+      <UnlockedByGroups>
+        <GroupSubtype>2111</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeGatlingTurret" Subtype="SmallGatlingTurret" />
+      <UnlockedByGroups>
+        <GroupSubtype>2111</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+<!-- MISSILES -->
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_SmallMissileLauncher" Subtype="" />
+      <UnlockedByGroups>
+        <GroupSubtype>4</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_SmallMissileLauncher" Subtype="LargeMissileLauncher" />
+      <UnlockedByGroups>
+        <GroupSubtype>4</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_SmallMissileLauncherReload" Subtype="SmallRocketLauncherReload" />
+      <UnlockedByGroups>
+        <GroupSubtype>2113</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeMissileTurret" Subtype="" />
+      <UnlockedByGroups>
+        <GroupSubtype>2113</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeMissileTurret" Subtype="SmallMissileTurret" />
+      <UnlockedByGroups>
+        <GroupSubtype>2113</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeMissileTurret" Subtype="OKIMLVT" />
+      <UnlockedByGroups>
+        <GroupSubtype>2113</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeMissileTurret" Subtype="OKIHvyMissileTurret" />
+      <UnlockedByGroups>
+        <GroupSubtype>2125</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+<!-- OKI 14mm FAMILY-->
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_SmallGatlingGun" Subtype="OKI23mmDGfixed" />
+      <UnlockedByGroups>
+        <GroupSubtype>0</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeGatlingTurret" Subtype="OKI23mmSG" />
+      <UnlockedByGroups>
+        <GroupSubtype>0</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeGatlingTurret" Subtype="OKI23mmDG" />
+      <UnlockedByGroups>
+        <GroupSubtype>2116</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeGatlingTurret" Subtype="OKI14mmVT" />
+      <UnlockedByGroups>
+        <GroupSubtype>2116</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+<!-- OKI 50mm FAMILY-->
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_SmallGatlingGun" Subtype="OKI50mmSGfixed" />
+      <UnlockedByGroups>
+        <GroupSubtype>2111</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeGatlingTurret" Subtype="OKI50mmSG" />
+      <UnlockedByGroups>
+        <GroupSubtype>2118</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeGatlingTurret" Subtype="OKI50mmAG" />
+      <UnlockedByGroups>
+        <GroupSubtype>2118</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeGatlingTurret" Subtype="OKI50mmVT" />
+      <UnlockedByGroups>
+        <GroupSubtype>2118</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>    
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_SmallGatlingGun" Subtype="OKI50mmFGAT" />
+      <UnlockedByGroups>
+        <GroupSubtype>2119</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeGatlingTurret" Subtype="OKI50mmGat" />
+      <UnlockedByGroups>
+        <GroupSubtype>2120</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>    
+
+<!-- OKI 122mm FAMILY-->
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_SmallGatlingGun" Subtype="OKI122mmAGfixed" />
+      <UnlockedByGroups>
+        <GroupSubtype>2118</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeGatlingTurret" Subtype="OKI76mmBSD" />
+      <UnlockedByGroups>
+        <GroupSubtype>2121</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeGatlingTurret" Subtype="OKI76mmAG" />
+      <UnlockedByGroups>
+        <GroupSubtype>2122</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeGatlingTurret" Subtype="OKI122mmVT" />
+      <UnlockedByGroups>
+        <GroupSubtype>2122</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>    
+
+<!-- OKI 230mm FAMILY-->
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_SmallGatlingGun" Subtype="OKI230mmBCfixed" />
+      <UnlockedByGroups>
+        <GroupSubtype>2121</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeGatlingTurret" Subtype="OKI230mmBCBRD" />
+      <UnlockedByGroups>
+        <GroupSubtype>2123</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeGatlingTurret" Subtype="OKI230mmBC" />
+      <UnlockedByGroups>
+        <GroupSubtype>2124</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeGatlingTurret" Subtype="OKI230mmBAT" />
+      <UnlockedByGroups>
+        <GroupSubtype>8</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>    
+
+<!-- observers -->
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeGatlingTurret" Subtype="OKIObserverSM" />
+      <UnlockedByGroups>
+        <GroupSubtype>2126</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>    
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_LargeGatlingTurret" Subtype="OKIDesignator" />
+      <UnlockedByGroups>
+        <GroupSubtype>2126</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>    
+
+  </ResearchBlocks>
+</Definitions>

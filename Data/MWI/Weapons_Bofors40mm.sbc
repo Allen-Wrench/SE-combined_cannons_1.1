@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapons>
+
+      <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>40mmBofors</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="128" ShootSoundName="40mmBofors" ShotsInBurst="64" />
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+	  <DeviateShotAngle>1</DeviateShotAngle>
+      <ReleaseTimeAfterFire>500</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>50</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="Bofors40mm" />
+      </AmmoMagazines>
+      <ReloadTime>4000</ReloadTime>
+    </Weapon>
+
+
+      <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>40mmBofors_small</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="180" ShootSoundName="40mmBofors" ShotsInBurst="42" />
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+	  <DeviateShotAngle>1</DeviateShotAngle>
+      <ReleaseTimeAfterFire>500</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>50</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="Bofors40mm" />
+      </AmmoMagazines>
+      <ReloadTime>4000</ReloadTime>
+    </Weapon>
+
+
+  </Weapons>
+</Definitions>

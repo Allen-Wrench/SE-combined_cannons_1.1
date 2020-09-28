@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AmmoMagazines>
+<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>OKIObserverMAG</SubtypeId>
+      </Id>
+      <DisplayName>OKI Targetter Charge</DisplayName>
+      <Icon>icons\FAKE.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>models\Ammo\designator_charge.mwm</Model>
+      <Capacity>1000</Capacity>
+      <AmmoDefinitionId Subtype="OKIObserverAMMO" />
+	        <MinimumOfferAmount>1</MinimumOfferAmount>
+      <MaximumOfferAmount>99999</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>99999</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </AmmoMagazine>
+	
+<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>OKI23mmAmmo</SubtypeId>
+      </Id>
+      <DisplayName>OKI 14.5mm Ammo Drum (x240)</DisplayName>
+      <Icon>icons\OKI23mmDGAmmo.dds</Icon>
+      <Size>
+        <X>0.25</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>35</Mass>
+      <Volume>16</Volume>
+      <Model>models\Ammo\OKI23mmAmmo.mwm</Model>
+      <Capacity>240</Capacity>
+      <AmmoDefinitionId Subtype="OKI23mmAmmoPars" />
+	        <MinimumOfferAmount>1</MinimumOfferAmount>
+      <MaximumOfferAmount>99999</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>99999</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </AmmoMagazine>
+
+<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>OKI50mmAmmo</SubtypeId>
+      </Id>
+      <DisplayName>OKI 50mm Precision Shells (x6)</DisplayName>
+      <Icon>icons\OKI50mmAGAmmo.dds</Icon>
+      <Size>
+        <X>0.25</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>45</Mass>
+      <Volume>60</Volume>
+      <Model>models\Ammo\OKI50mmAmmo.mwm</Model>
+      <Capacity>6</Capacity>
+      <AmmoDefinitionId Subtype="OKI50mmAmmoPars" />
+	        <MinimumOfferAmount>1</MinimumOfferAmount>
+      <MaximumOfferAmount>99999</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>99999</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </AmmoMagazine>
+
+<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>OKI122mmAmmo</SubtypeId>
+      </Id>
+      <DisplayName>OKI 122mm Assault Shells (x3)</DisplayName>
+      <Icon>icons\OKI76mmASGAmmo.dds</Icon>
+      <Size>
+        <X>0.35</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+      </Size>
+      <Mass>45</Mass>
+      <Volume>60</Volume>
+      <Model>models\Ammo\OKI76mmAmmo.mwm</Model>
+      <Capacity>3</Capacity>
+      <AmmoDefinitionId Subtype="OKI76mmAmmoPars" />
+	        <MinimumOfferAmount>1</MinimumOfferAmount>
+      <MaximumOfferAmount>99999</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>99999</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </AmmoMagazine>
+
+<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>OKI230mmAmmo</SubtypeId>
+      </Id>
+      <DisplayName>OKI 230mm Battlecannon Shell (x1)</DisplayName>
+      <Icon>icons\OKI230mmBCAmmo.dds</Icon>
+      <Size>
+        <X>0.35</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+      </Size>
+      <Mass>90</Mass>
+      <Volume>120</Volume>
+      <Model>models\Ammo\OKI230mmAmmo.mwm</Model>
+      <Capacity>1</Capacity>
+      <AmmoDefinitionId Subtype="OKI230mmAmmoPars" />
+	        <MinimumOfferAmount>1</MinimumOfferAmount>
+      <MaximumOfferAmount>99999</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>99999</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </AmmoMagazine>
+
+  </AmmoMagazines>
+
+
+</Definitions>

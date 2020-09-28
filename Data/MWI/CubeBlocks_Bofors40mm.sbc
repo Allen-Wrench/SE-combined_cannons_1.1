@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Id>
+        <TypeId>LargeMissileTurret</TypeId>
+        <SubtypeId>40mmBofors</SubtypeId>
+      </Id>
+      <DisplayName>"40mm" Bofors</DisplayName>
+      <Icon>Textures\GUI\Bofors40mm.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\large\BoforsTurret_1.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="SmallTube" Count="8" />
+        <Component Subtype="Motor" Count="16" />
+        <Component Subtype="Computer" Count="12" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SteelPlate" Count="25" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\large\BoforsTurret_constr_1.mwm"/>
+        <Model BuildPercentUpperBound="0.66" File="Models\large\BoforsTurret_constr_2.mwm"/>
+        <Model BuildPercentUpperBound="1.00" File="Models\large\BoforsTurret_constr_3.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>40mmBofors</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="40mmBofors" />
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <UseModelIntersection>true</UseModelIntersection>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <MinElevationDegrees>-15</MinElevationDegrees> 
+      <MaxElevationDegrees>55</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <AiEnabled>true</AiEnabled>
+      <IdleRotation>true</IdleRotation>
+      <MaxRangeMeters>700</MaxRangeMeters>
+      <RotationSpeed>0.002</RotationSpeed>
+      <ElevationSpeed>0.002</ElevationSpeed>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+	  <PCU>400</PCU>
+    </Definition>
+
+
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Id>
+        <TypeId>LargeMissileTurret</TypeId>
+        <SubtypeId>40mmBofors_small</SubtypeId>
+      </Id>
+      <DisplayName>"40mm" Bofors</DisplayName>
+      <Icon>Textures\GUI\Bofors40mm.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="5" z="5" />
+      <Center x="2" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\large\BoforsTurret_1.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="SmallTube" Count="8" />
+        <Component Subtype="Motor" Count="16" />
+        <Component Subtype="Computer" Count="12" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SteelPlate" Count="25" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="5" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\large\BoforsTurret_constr_1.mwm"/>
+        <Model BuildPercentUpperBound="0.66" File="Models\large\BoforsTurret_constr_2.mwm"/>
+        <Model BuildPercentUpperBound="1.00" File="Models\large\BoforsTurret_constr_3.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>40mmBofors</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="40mmBofors_small" />
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <UseModelIntersection>true</UseModelIntersection>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <MinElevationDegrees>-15</MinElevationDegrees> 
+      <MaxElevationDegrees>55</MaxElevationDegrees>
+      <MinAzimuthDegrees>-90</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>90</MaxAzimuthDegrees>
+      <AiEnabled>true</AiEnabled>
+      <IdleRotation>true</IdleRotation>
+      <MaxRangeMeters>700</MaxRangeMeters>
+      <RotationSpeed>0.002</RotationSpeed>
+      <ElevationSpeed>0.002</ElevationSpeed>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+	  <PCU>600</PCU>
+    </Definition>
+
+
+ 
+
+  </CubeBlocks>
+  <BlockPositions>
+  </BlockPositions>
+</Definitions>

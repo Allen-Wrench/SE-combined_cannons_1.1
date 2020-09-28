@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AmmoMagazines>
+    <AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Bofors40mm</SubtypeId>
+      </Id>
+      <DisplayName>"40mm" Bofors</DisplayName>
+      <Icon>Textures\GUI\40mmShell.dds</Icon>
+      <Size>
+        <X>0.25</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>36</Mass>
+      <Volume>28</Volume>
+      <Model>Models\Weapons\40mmShell.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>50</Capacity>
+      <AmmoDefinitionId Subtype="Bofors40mm" />
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+	        <MinimumOfferAmount>1</MinimumOfferAmount>
+      <MaximumOfferAmount>99999</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>99999</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </AmmoMagazine>
+  </AmmoMagazines>
+</Definitions>

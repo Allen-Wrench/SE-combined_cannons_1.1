@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Ammos>
+
+
+ <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>460mm_Magnetic_Slug</SubtypeId>
+      </Id>
+      <BasicProperties>
+	<DesiredSpeed>1005.5</DesiredSpeed>
+	<SpeedVariance>0</SpeedVariance>
+	<MaxTrajectory>2000</MaxTrajectory>
+	<IsExplosive>true</IsExplosive>
+	<BackkickForce>100000</BackkickForce>
+        <PhysicalMaterial>Missile</PhysicalMaterial>
+      </BasicProperties>
+      <MissileProperties>
+	<MissileMass>250</MissileMass>
+	<MissileExplosionRadius>3</MissileExplosionRadius>
+	<MissileModelName>Models\Weapons\BFG_Round_trail.mwm</MissileModelName>
+	<MissileAcceleration>0</MissileAcceleration>
+	<MissileInitialSpeed>800</MissileInitialSpeed>
+	<MissileSkipAcceleration>false</MissileSkipAcceleration>
+	<MissileExplosionDamage>145000</MissileExplosionDamage>
+	</MissileProperties>
+    </Ammo>
+
+
+  </Ammos>
+</Definitions>
