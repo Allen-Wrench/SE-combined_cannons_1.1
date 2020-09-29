@@ -7,19 +7,19 @@
         <SubtypeId>LittleDavid</SubtypeId>
       </Id>
       <BasicProperties>
-        <DesiredSpeed>755.5</DesiredSpeed>
+        <DesiredSpeed>850</DesiredSpeed>
         <SpeedVariance>0</SpeedVariance>
-        <MaxTrajectory>2100</MaxTrajectory>
+        <MaxTrajectory>3000</MaxTrajectory>
         <BackkickForce>150000</BackkickForce>
 		<IsExplosive>true</IsExplosive>
         <PhysicalMaterial>Missile</PhysicalMaterial>
       </BasicProperties>
       <MissileProperties>
-	<MissileMass>3000</MissileMass>
+	<MissileMass>300</MissileMass>
 	<MissileExplosionRadius>3</MissileExplosionRadius>
 	<MissileModelName>Models\Weapons\Little_DavidTrace.mwm</MissileModelName>
 	<MissileAcceleration>0</MissileAcceleration>
-	<MissileInitialSpeed>550</MissileInitialSpeed>
+	<MissileInitialSpeed>600</MissileInitialSpeed>
 	<MissileSkipAcceleration>false</MissileSkipAcceleration>
 	<MissileExplosionDamage>80000</MissileExplosionDamage>
 	</MissileProperties>
@@ -31,21 +31,21 @@
         <SubtypeId>BigBertha</SubtypeId>
       </Id>
       <BasicProperties>
-        <DesiredSpeed>555.5</DesiredSpeed>
+        <DesiredSpeed>800</DesiredSpeed>
         <SpeedVariance>0</SpeedVariance>
-        <MaxTrajectory>3000</MaxTrajectory>
+        <MaxTrajectory>8000</MaxTrajectory>
         <BackkickForce>50000000</BackkickForce>
 		<IsExplosive>true</IsExplosive>
         <PhysicalMaterial>Missile</PhysicalMaterial>
       </BasicProperties>
       <MissileProperties>
 	<MissileMass>10000</MissileMass>
-	<MissileExplosionRadius>10</MissileExplosionRadius>
+	<MissileExplosionRadius>6</MissileExplosionRadius>
 	<MissileModelName>Models\Weapons\BigBerthaTrace.mwm</MissileModelName>
 	<MissileAcceleration>0</MissileAcceleration>
-	<MissileInitialSpeed>350</MissileInitialSpeed>
+	<MissileInitialSpeed>550</MissileInitialSpeed>
 	<MissileSkipAcceleration>false</MissileSkipAcceleration>
-	<MissileExplosionDamage>240000</MissileExplosionDamage>
+	<MissileExplosionDamage>2133333</MissileExplosionDamage>
 	</MissileProperties>
     </Ammo>
 
