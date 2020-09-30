@@ -52,13 +52,13 @@
       <ElevationSpeed>0.003</ElevationSpeed>
       <AiEnabled>true</AiEnabled>
       <IdleRotation>true</IdleRotation>
-      <MaxRangeMeters>600</MaxRangeMeters>
+      <MaxRangeMeters>1300</MaxRangeMeters>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-	  <PCU>350</PCU>
+	  <PCU>172</PCU>
     </Definition>
 
 
@@ -114,13 +114,13 @@
       <ElevationSpeed>0.003</ElevationSpeed>
       <AiEnabled>true</AiEnabled>
       <IdleRotation>true</IdleRotation>
-      <MaxRangeMeters>600</MaxRangeMeters>
+      <MaxRangeMeters>1300</MaxRangeMeters>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-	  <PCU>400</PCU>
+	  <PCU>647</PCU>
     </Definition>
 
 

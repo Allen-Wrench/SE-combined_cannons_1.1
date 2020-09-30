@@ -78,13 +78,13 @@
 		  <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
 		  <RotationSpeed>0.001</RotationSpeed>
 		  <ElevationSpeed>0.001</ElevationSpeed>
-		  <MaxRangeMeters>2000</MaxRangeMeters>
+		  <MaxRangeMeters>3500</MaxRangeMeters>
 		  <AiEnabled>true</AiEnabled>
 		  <IdleRotation>false</IdleRotation>
 		  <EmissiveColorPreset>Default</EmissiveColorPreset>
 		  <MinFov>0.1</MinFov>
 		  <MaxFov>1.04719755</MaxFov>
-		  <PCU>700</PCU>
+		  <PCU>3500</PCU>
 		  
     </Definition>
 
@@ -149,13 +149,13 @@
 		  <MaxAzimuthDegrees>110</MaxAzimuthDegrees>
 		  <RotationSpeed>0.001</RotationSpeed>
 		  <ElevationSpeed>0.001</ElevationSpeed>
-		  <MaxRangeMeters>2000</MaxRangeMeters>
+		  <MaxRangeMeters>3500</MaxRangeMeters>
 		  <AiEnabled>true</AiEnabled>
 		  <IdleRotation>false</IdleRotation>
 		  <EmissiveColorPreset>Default</EmissiveColorPreset>
 		  <MinFov>0.1</MinFov>
 		  <MaxFov>1.04719755</MaxFov>
-		  <PCU>700</PCU>
+		  <PCU>3500</PCU>
     </Definition>
 
   </CubeBlocks>

@@ -6,12 +6,12 @@
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>7x7_TriBarrel_460</SubtypeId>
       </Id>
-      <MissileAmmoData RateOfFire="20" ShootSoundName="MexHeavyCannon" ShotsInBurst = "3" />  
+      <MissileAmmoData RateOfFire="120" ShootSoundName="MexHeavyCannon" ShotsInBurst = "3" />  
       <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>0.6</DeviateShotAngle>
+      <DeviateShotAngle>0.3</DeviateShotAngle>
       <ReleaseTimeAfterFire>10000</ReleaseTimeAfterFire>
       <MuzzleFlashLifeSpan>5000</MuzzleFlashLifeSpan>
-      <ReloadTime>19000</ReloadTime>
+      <ReloadTime>12000</ReloadTime>
       <AmmoMagazines>
 	  
         <AmmoMagazine Subtype="HEShell460mm" />

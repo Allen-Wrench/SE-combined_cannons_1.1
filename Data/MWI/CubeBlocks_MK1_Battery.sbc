@@ -59,7 +59,7 @@
 		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
 		  <DestroySound>WepSmallMissileExpl</DestroySound>
 		  <ResourceSinkGroup>Defense</ResourceSinkGroup>
-		  <PCU>230</PCU>
+		  <PCU>100</PCU>
     </Definition>
 
 	</CubeBlocks>

@@ -6,17 +6,15 @@
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>Mark_2</SubtypeId>
       </Id>
-      <MissileAmmoData RateOfFire="30" ShootSoundName="MK2CannonShot" ShotsInBurst="2" />  <!-- original RoF = 25 -->
+      <MissileAmmoData RateOfFire="90" ShootSoundName="MK2CannonShot" ShotsInBurst="2" />  <!-- original RoF = 25 -->
       <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>0.55</DeviateShotAngle>
+      <DeviateShotAngle>0.4</DeviateShotAngle>
       <ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
       <MuzzleFlashLifeSpan>5000</MuzzleFlashLifeSpan>
       <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
-	  <ReloadTime>12400</ReloadTime>
+	    <ReloadTime>6000</ReloadTime>
       <AmmoMagazines>
-	  
         <AmmoMagazine Subtype="HEShell381mm" />
-		
       </AmmoMagazines>
     </Weapon>
   </Weapons>

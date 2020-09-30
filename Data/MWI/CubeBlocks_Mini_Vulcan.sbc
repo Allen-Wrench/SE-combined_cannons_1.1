@@ -54,13 +54,13 @@
       <ElevationSpeed>0.002</ElevationSpeed>
       <AiEnabled>true</AiEnabled>
       <IdleRotation>true</IdleRotation>
-      <MaxRangeMeters>600</MaxRangeMeters>
+      <MaxRangeMeters>1500</MaxRangeMeters>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-	  <PCU>400</PCU>
+	  <PCU>230</PCU>
     </Definition>
 
 

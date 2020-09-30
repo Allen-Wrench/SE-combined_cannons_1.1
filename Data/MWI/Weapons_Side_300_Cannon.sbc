@@ -9,13 +9,13 @@
       </Id>
       <MissileAmmoData RateOfFire="60" ShootSoundName="300mmCannon" ShotsInBurst="1" />  
       <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>0.1</DeviateShotAngle>
+      <DeviateShotAngle>0.2</DeviateShotAngle>
       <ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
       <MuzzleFlashLifeSpan>500</MuzzleFlashLifeSpan>
       <AmmoMagazines>
         <AmmoMagazine Subtype="300mmShell_HE" />
       </AmmoMagazines>
-	  <ReloadTime>5500</ReloadTime>
+	  <ReloadTime>6000</ReloadTime>
     </Weapon> 
 
 
@@ -26,15 +26,13 @@
       </Id>
       <MissileAmmoData RateOfFire="60" ShootSoundName="300mmCannon" ShotsInBurst="1" />  
       <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>0.1</DeviateShotAngle>
+      <DeviateShotAngle>0.2</DeviateShotAngle>
       <ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
       <MuzzleFlashLifeSpan>500</MuzzleFlashLifeSpan>
       <AmmoMagazines>
         <AmmoMagazine Subtype="300mmShell_HE" />
       </AmmoMagazines>
-	  <ReloadTime>5000</ReloadTime>
-    </Weapon> 
-
-
+	    <ReloadTime>62100</ReloadTime>
+    </Weapon>
   </Weapons>
 </Definitions>

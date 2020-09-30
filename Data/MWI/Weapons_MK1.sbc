@@ -8,15 +8,13 @@
       </Id>
       <MissileAmmoData RateOfFire="30" ShootSoundName="MK1CannonShot" ShotsInBurst="1" />  
       <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>0.35</DeviateShotAngle>
+      <DeviateShotAngle>0.3</DeviateShotAngle>
       <ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
       <MuzzleFlashLifeSpan>5000</MuzzleFlashLifeSpan>
       <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
-	  <ReloadTime>7000</ReloadTime>
+	    <ReloadTime>6000</ReloadTime>
       <AmmoMagazines>
-	  
         <AmmoMagazine Subtype="HEShell355mm" />
-		
       </AmmoMagazines>
     </Weapon>
   </Weapons>

@@ -62,7 +62,7 @@
       <AiEnabled>true</AiEnabled>
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.25</OperationalPowerConsumption>
-      <PCU>25</PCU>
+      <PCU>75</PCU>
     </Definition> 
 
 	
@@ -133,7 +133,7 @@
       <Id>
         <TypeId>SmallGatlingGun</TypeId>
         <SubtypeId>OKI23mmDGfixed</SubtypeId>
-	</Id>
+	    </Id>
       <DisplayName>OKI 14.5mm Fixed Machineguns</DisplayName>
       <Icon>icons\OKI14mmMG_Fixed.dds</Icon>
       <Description>Linked heavy machineguns fixed firmly in a small grid mount. Good weapon against soft targets such as engineers or spiders. Not the best weapon against armored targets.</Description>
@@ -172,14 +172,14 @@
       <InventoryMaxVolume>0.160</InventoryMaxVolume>
       <DeformationRatio>0</DeformationRatio>
       <DamageEffectId>213</DamageEffectId>
-      <PCU>200</PCU>
+      <PCU>150</PCU>
     </Definition>     
 
 <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
       <Id>
         <TypeId>SmallGatlingGun</TypeId>
         <SubtypeId>OKI50mmSGfixed</SubtypeId>
-	</Id>
+	    </Id>
       <DisplayName>OKI 50mm Fixed Stormcannon</DisplayName>
       <Icon>icons\OKI50mmSG_Fixed.dds</Icon>
       <Description>Small grid fixed Stormcannon. Designed to engage small lightly armored targets at long range with exceptional accuracy.</Description>
@@ -218,7 +218,7 @@
       <InventoryMaxVolume>0.240</InventoryMaxVolume>
       <DamageEffectId>213</DamageEffectId>
       <DeformationRatio>0</DeformationRatio>
-      <PCU>350</PCU>
+      <PCU>100</PCU>
     </Definition>
 
 <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
@@ -266,12 +266,12 @@
       <InventoryMaxVolume>0.300</InventoryMaxVolume>
       <DamageEffectId>213</DamageEffectId>
       <DeformationRatio>0</DeformationRatio>
-      <PCU>460</PCU>
+      <PCU>200</PCU>
     </Definition>
 
 <!-- =====================================small grid turrets============================================ -->
 
-<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+<Definition xsi:type="MyObjilder_LargeTurretBaseDefinition">
       <Id>
         <TypeId>LargeGatlingTurret</TypeId>
         <SubtypeId>OKI23mmSG</SubtypeId>
@@ -318,12 +318,12 @@
       <RotationSpeed>0.003</RotationSpeed>
       <ElevationSpeed>0.003</ElevationSpeed>
       <IdleRotation>false</IdleRotation>
-      <MaxRangeMeters>500</MaxRangeMeters>
+      <MaxRangeMeters>1500</MaxRangeMeters>
       <MinFov>1</MinFov>
       <MaxFov>2</MaxFov>
       <AiEnabled>true</AiEnabled>
       <DeformationRatio>0</DeformationRatio>
-      <PCU>250</PCU>
+      <PCU>200</PCU>
     </Definition> 
 
 <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
@@ -374,10 +374,10 @@
       <RotationSpeed>0.001</RotationSpeed>
       <ElevationSpeed>0.001</ElevationSpeed>
       <IdleRotation>false</IdleRotation>
-      <MaxRangeMeters>800</MaxRangeMeters>
+      <MaxRangeMeters>1800</MaxRangeMeters>
       <AiEnabled>true</AiEnabled>
       <DeformationRatio>0</DeformationRatio>
-      <PCU>500</PCU>
+      <PCU>627</PCU>
     </Definition>   
 
 
@@ -439,13 +439,13 @@
       <RotationSpeed>0.004</RotationSpeed>
       <ElevationSpeed>0.004</ElevationSpeed>
       <IdleRotation>false</IdleRotation>
-      <MaxRangeMeters>500</MaxRangeMeters>
+      <MaxRangeMeters>1500</MaxRangeMeters>
       <MinFov>0.1</MinFov>
       <MaxFov>2</MaxFov>
       <AiEnabled>true</AiEnabled>
       <DeformationRatio>0</DeformationRatio>
       <GeneralDamageMultiplier>0.8</GeneralDamageMultiplier>
-      <PCU>250</PCU>
+      <PCU>300</PCU>
     </Definition> 
 
 <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
@@ -507,7 +507,7 @@
       <AiEnabled>true</AiEnabled>
       <DeformationRatio>0</DeformationRatio>
       <GeneralDamageMultiplier>0.8</GeneralDamageMultiplier>
-      <PCU>540</PCU>
+      <PCU>625/PCU>
     </Definition> 
 
 <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
@@ -564,11 +564,11 @@
       <RotationSpeed>0.001</RotationSpeed>
       <ElevationSpeed>0.001</ElevationSpeed>
       <IdleRotation>false</IdleRotation>
-      <MaxRangeMeters>800</MaxRangeMeters>
+      <MaxRangeMeters>1800</MaxRangeMeters>
       <AiEnabled>true</AiEnabled>
       <DeformationRatio>0</DeformationRatio>
       <GeneralDamageMultiplier>0.8</GeneralDamageMultiplier>
-      <PCU>480</PCU>
+      <PCU>620</PCU>
     </Definition> 
 
 <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
@@ -628,7 +628,7 @@
       <RotationSpeed>0.001</RotationSpeed>
       <ElevationSpeed>0.001</ElevationSpeed>
       <IdleRotation>false</IdleRotation>
-      <MaxRangeMeters>1000</MaxRangeMeters>
+      <MaxRangeMeters>3400</MaxRangeMeters>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
@@ -637,7 +637,7 @@
       <AiEnabled>true</AiEnabled>
       <DeformationRatio>0</DeformationRatio>
       <GeneralDamageMultiplier>0.8</GeneralDamageMultiplier>
-      <PCU>450</PCU>
+      <PCU>578</PCU>
       <IsAirTight>false</IsAirTight>      
     </Definition>
 
@@ -648,7 +648,7 @@
       <Id>
         <TypeId>SmallMissileLauncher</TypeId>
         <SubtypeId>OKI50mmFGAT</SubtypeId>
-	</Id>
+	    </Id>
       <DisplayName>OKI Fixed 50mm Stormgun</DisplayName>
       <Icon>icons\OKI50mmGAT_Fixed.dds</Icon>
       <Description>Massive gatling cannon designed to be used in strafing runs. Has great range and good rate of fire, but limited use due to the fixed nature of the weapon. Uses burstcannon shells to fire.</Description>
@@ -687,14 +687,14 @@
       <InventoryMaxVolume>0.960</InventoryMaxVolume>
       <DamageEffectId>213</DamageEffectId>
       <DeformationRatio>0</DeformationRatio>
-      <PCU>300</PCU>
+      <PCU>167</PCU>
     </Definition> 
 
 <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
       <Id>
         <TypeId>SmallMissileLauncher</TypeId>
         <SubtypeId>OKI230mmBCfixed</SubtypeId>
-	</Id>
+	    </Id>
       <DisplayName>OKI Fixed 230mm Battlecannon</DisplayName>
       <Description>Large caliber anti-capital ship cannon in fixed mount. Best used for large grid assault ships. Great range and damage against light and heavy armor.</Description>
       <Icon>icons\OKI230mmBC_Fixed.dds</Icon>
@@ -710,7 +710,7 @@
         <Component Subtype="SmallTube" Count="12" />
         <Component Subtype="LargeTube" Count="40" />
         <Component Subtype="Motor" Count="18" />        
-	<Component Subtype="Superconductor" Count="18" />
+	      <Component Subtype="Superconductor" Count="18" />
         <Component Subtype="Computer" Count="10" />
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="SteelPlate" Count="60" />
@@ -739,7 +739,7 @@
       <InventoryMaxVolume>0.960</InventoryMaxVolume>
       <DamageEffectId>213</DamageEffectId>
       <DeformationRatio>0</DeformationRatio>
-      <PCU>500</PCU>
+      <PCU>150</PCU>
     </Definition> 	
 
 
@@ -801,10 +801,10 @@
       <RotationSpeed>0.004</RotationSpeed>
       <ElevationSpeed>0.004</ElevationSpeed>
       <IdleRotation>false</IdleRotation>
-      <MaxRangeMeters>800</MaxRangeMeters>
+      <MaxRangeMeters>2200</MaxRangeMeters>
       <DeformationRatio>0</DeformationRatio>
       <GeneralDamageMultiplier>0.8</GeneralDamageMultiplier>
-      <PCU>300</PCU>
+      <PCU>163</PCU>
     </Definition>   
 
 <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
@@ -828,7 +828,7 @@
         <Component Subtype="SmallTube" Count="12" />
         <Component Subtype="LargeTube" Count="40" />
         <Component Subtype="Motor" Count="60" />        
-	<Component Subtype="Superconductor" Count="24" />
+	      <Component Subtype="Superconductor" Count="24" />
         <Component Subtype="Computer" Count="12" />
         <Component Subtype="Construction" Count="30" />
         <Component Subtype="SteelPlate" Count="80" />
@@ -838,7 +838,7 @@
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="2" />
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="2" />
-	<MountPoint Side="Back" StartX="0" StartY="0.5" EndX="1" EndY="2" />
+	      <MountPoint Side="Back" StartX="0" StartY="0.5" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.2" File="models\Broadside\OKI230mmBCBroadsideprogress1.mwm"/>
@@ -863,10 +863,10 @@
       <RotationSpeed>0.003</RotationSpeed>
       <ElevationSpeed>0.003</ElevationSpeed>
       <IdleRotation>false</IdleRotation>
-      <MaxRangeMeters>1400</MaxRangeMeters>
+      <MaxRangeMeters>2700</MaxRangeMeters>
       <DeformationRatio>0</DeformationRatio>
       <GeneralDamageMultiplier>0.8</GeneralDamageMultiplier>
-      <PCU>500</PCU>
+      <PCU>300</PCU>
     </Definition>     
 
 
@@ -922,12 +922,12 @@
       <RotationSpeed>0.005</RotationSpeed>
       <ElevationSpeed>0.005</ElevationSpeed>
       <IdleRotation>false</IdleRotation>
-      <MaxRangeMeters>900</MaxRangeMeters>
+      <MaxRangeMeters>1500</MaxRangeMeters>
       <MinFov>0.1</MinFov>
       <MaxFov>2</MaxFov>
       <AiEnabled>true</AiEnabled>
       <DeformationRatio>0</DeformationRatio>
-      <PCU>150</PCU>
+      <PCU>300</PCU>
     </Definition> 
 
 <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
@@ -980,9 +980,9 @@
       <RotationSpeed>0.001</RotationSpeed>
       <ElevationSpeed>0.001</ElevationSpeed>
       <IdleRotation>false</IdleRotation>
-      <MaxRangeMeters>800</MaxRangeMeters>
+      <MaxRangeMeters>1800</MaxRangeMeters>
       <DeformationRatio>0</DeformationRatio>
-      <PCU>350</PCU>
+      <PCU>167</PCU>
     </Definition>        
 
 <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
@@ -1034,9 +1034,9 @@
       <RotationSpeed>0.004</RotationSpeed>
       <ElevationSpeed>0.004</ElevationSpeed>
       <IdleRotation>false</IdleRotation>
-      <MaxRangeMeters>800</MaxRangeMeters>
+      <MaxRangeMeters>2200</MaxRangeMeters>
       <DeformationRatio>0</DeformationRatio>
-      <PCU>300</PCU>
+      <PCU>163</PCU>
     </Definition>    
 
 
@@ -1070,7 +1070,7 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
-	<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
+	    <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.2" File="models\Turret\OKI230mmBCprogress0.mwm"/>
@@ -1096,9 +1096,9 @@
       <RotationSpeed>0.0005</RotationSpeed>
       <ElevationSpeed>0.0005</ElevationSpeed>
       <IdleRotation>false</IdleRotation>
-      <MaxRangeMeters>800</MaxRangeMeters>
+      <MaxRangeMeters>1800</MaxRangeMeters>
       <DeformationRatio>0</DeformationRatio>
-      <PCU>350</PCU>
+      <PCU>1504</PCU>
     </Definition>       
 
 <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
@@ -1128,7 +1128,7 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
-	<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
+	    <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.2" File="models\Turret\OKI230mmBCprogress0.mwm"/>
@@ -1155,9 +1155,9 @@
       <RotationSpeed>0.002</RotationSpeed>
       <ElevationSpeed>0.002</ElevationSpeed>
       <IdleRotation>false</IdleRotation>
-      <MaxRangeMeters>1000</MaxRangeMeters>
+      <MaxRangeMeters>3400</MaxRangeMeters>
       <DeformationRatio>0</DeformationRatio>
-      <PCU>300</PCU>
+      <PCU>1413</PCU>
     </Definition> 
 
 <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
@@ -1187,7 +1187,7 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
-	<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
+	      <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.2" File="models\Turret\OKI230mmBCprogress0.mwm"/>
@@ -1213,9 +1213,9 @@
       <RotationSpeed>0.003</RotationSpeed>
       <ElevationSpeed>0.003</ElevationSpeed>
       <IdleRotation>false</IdleRotation>
-      <MaxRangeMeters>1400</MaxRangeMeters>
+      <MaxRangeMeters>2700</MaxRangeMeters>
       <DeformationRatio>0</DeformationRatio>
-      <PCU>500</PCU>
+      <PCU>1351</PCU>
     </Definition> 
     
 <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
@@ -1245,7 +1245,7 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
-	<MountPoint Side="Bottom" StartX="1" StartY="1" EndX="4" EndY="4" />
+	      <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="4" EndY="4" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.2" File="models\Turret\OKI230mmBATprogress0.mwm"/>
@@ -1271,10 +1271,9 @@
       <RotationSpeed>0.003</RotationSpeed>
       <ElevationSpeed>0.003</ElevationSpeed>
       <IdleRotation>false</IdleRotation>
-      <MaxRangeMeters>1400</MaxRangeMeters>
+      <MaxRangeMeters>2700</MaxRangeMeters>
       <DeformationRatio>0</DeformationRatio>
-      <PCU>550</PCU>
+      <PCU>3753</PCU>
     </Definition>       
-
   </CubeBlocks>
 </Definitions>

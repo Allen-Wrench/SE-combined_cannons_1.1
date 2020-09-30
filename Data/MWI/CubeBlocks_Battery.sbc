@@ -84,7 +84,7 @@
 		  <DestroyEffect>Explosion_Warhead_15</DestroyEffect>
 		  <DestroySound>WepSmallWarheadExpl</DestroySound>
 		  <ResourceSinkGroup>Defense</ResourceSinkGroup>
-		  <PCU>500</PCU>
+		  <PCU>548</PCU>
     </Definition>
 
 
@@ -148,7 +148,7 @@
 		  <DestroyEffect>Explosion_Warhead_15</DestroyEffect>
 		  <DestroySound>WepSmallWarheadExpl</DestroySound>
 		  <ResourceSinkGroup>Defense</ResourceSinkGroup>
-		  <PCU>600</PCU>
+		  <PCU>274</PCU>
     </Definition>
 
 
@@ -212,7 +212,7 @@
 		  <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
 		  <DestroySound>WepLrgWarheadExpl</DestroySound>
 		  <ResourceSinkGroup>Defense</ResourceSinkGroup>
-		  <PCU>600</PCU>
+		  <PCU>2192</PCU>
     </Definition>
 
 	</CubeBlocks>

@@ -1,39 +1,36 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Weapons>
-
     <Weapon>
       <Id>
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>LargeAden</SubtypeId>
       </Id>
-      <MissileAmmoData RateOfFire="204" ShootSoundName="Aden" ShotsInBurst="64" />
+      <MissileAmmoData RateOfFire="60" ShootSoundName="Aden" ShotsInBurst="30" />
       <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
-	  <DeviateShotAngle>0.5</DeviateShotAngle>
+	    <DeviateShotAngle>1</DeviateShotAngle>
       <MuzzleFlashLifeSpan>1</MuzzleFlashLifeSpan>
       <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
       <AmmoMagazines>
         <AmmoMagazine Subtype="Aden30x113" />
       </AmmoMagazines>
-      <ReloadTime>6000</ReloadTime>
+      <ReloadTime>12000</ReloadTime>
     </Weapon>
 
- 
     <Weapon>
       <Id>
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>SmallAden</SubtypeId>
       </Id>
-      <MissileAmmoData RateOfFire="170" ShootSoundName="Aden" ShotsInBurst="56" />
+      <MissileAmmoData RateOfFire="140" ShootSoundName="Aden" ShotsInBurst="30" />
       <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
-	  <DeviateShotAngle>0.2</DeviateShotAngle>
+	    <DeviateShotAngle>1</DeviateShotAngle>
       <MuzzleFlashLifeSpan>1</MuzzleFlashLifeSpan>
       <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
       <AmmoMagazines>
         <AmmoMagazine Subtype="Aden30x113" />
       </AmmoMagazines>
-      <ReloadTime>7000</ReloadTime>
+      <ReloadTime>5000</ReloadTime>
     </Weapon>
-
   </Weapons>
 </Definitions>

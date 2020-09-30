@@ -1,8 +1,6 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Weapons>
-
- 
     <Weapon>
       <Id>
         <TypeId>WeaponDefinition</TypeId>
@@ -10,7 +8,7 @@
       </Id>
       <ProjectileAmmoData RateOfFire="240" ShootSoundName="WepShipGatlingShot" ShotsInBurst="180" />
       <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
-	  <DeviateShotAngle>0.4</DeviateShotAngle>
+	    <DeviateShotAngle>0.4</DeviateShotAngle>
       <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
       <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
       <AmmoMagazines>
@@ -18,6 +16,5 @@
       </AmmoMagazines>
       <ReloadTime>3000</ReloadTime>
     </Weapon>
-
   </Weapons>
 </Definitions>

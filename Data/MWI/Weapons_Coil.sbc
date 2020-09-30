@@ -13,9 +13,7 @@
       <MuzzleFlashLifeSpan>5000</MuzzleFlashLifeSpan>
       <ReloadTime>30000</ReloadTime>
       <AmmoMagazines>
-	  
         <AmmoMagazine Subtype="EMSlug460mm" />
-		
       </AmmoMagazines>
     </Weapon>
   </Weapons>
