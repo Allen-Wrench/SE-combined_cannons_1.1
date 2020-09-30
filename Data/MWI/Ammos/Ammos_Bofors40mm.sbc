@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Ammos>
-    
+
 
  <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
       <Id>
@@ -9,9 +9,9 @@
         <SubtypeId>Bofors40mm</SubtypeId>
       </Id>
       <BasicProperties>
-        <DesiredSpeed>1155.5</DesiredSpeed>
+        <DesiredSpeed>1100</DesiredSpeed>
         <SpeedVariance>0</SpeedVariance>
-        <MaxTrajectory>700</MaxTrajectory>
+        <MaxTrajectory>1500</MaxTrajectory>
         <BackkickForce>500</BackkickForce>
 	<IsExplosive>true</IsExplosive>
         <PhysicalMaterial>Missile</PhysicalMaterial>
@@ -21,9 +21,9 @@
 	<MissileExplosionRadius>2</MissileExplosionRadius>
 	<MissileModelName>Models\Weapons\BoforsTrace.mwm</MissileModelName>
 	<MissileAcceleration>0</MissileAcceleration>
-	<MissileInitialSpeed>950</MissileInitialSpeed>
+	<MissileInitialSpeed>850</MissileInitialSpeed>
 	<MissileSkipAcceleration>false</MissileSkipAcceleration>
-	<MissileExplosionDamage>1600</MissileExplosionDamage>
+	<MissileExplosionDamage>12240</MissileExplosionDamage>
 	</MissileProperties>
     </Ammo>
 

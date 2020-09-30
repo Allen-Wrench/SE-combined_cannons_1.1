@@ -9,9 +9,9 @@
         <SubtypeId>460mm_HE_Shell</SubtypeId>
       </Id>
       <BasicProperties>
-	<DesiredSpeed>855.5</DesiredSpeed>
+	<DesiredSpeed>900</DesiredSpeed>
 	<SpeedVariance>0</SpeedVariance>
-	<MaxTrajectory>2000</MaxTrajectory>
+	<MaxTrajectory>4000</MaxTrajectory>
 	<IsExplosive>true</IsExplosive>
 	<BackkickForce>50000</BackkickForce>
         <PhysicalMaterial>Missile</PhysicalMaterial>
@@ -23,7 +23,7 @@
 	<MissileAcceleration>0</MissileAcceleration>
 	<MissileInitialSpeed>650</MissileInitialSpeed>
 	<MissileSkipAcceleration>false</MissileSkipAcceleration>
-	<MissileExplosionDamage>30000</MissileExplosionDamage>
+	<MissileExplosionDamage>234612</MissileExplosionDamage>
 	</MissileProperties>
     </Ammo>
 

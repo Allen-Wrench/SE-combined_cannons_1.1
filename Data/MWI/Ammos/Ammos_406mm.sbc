@@ -7,21 +7,21 @@
         <SubtypeId>406mm_HE_Shell</SubtypeId>
       </Id>
       <BasicProperties>
-	<DesiredSpeed>855.5</DesiredSpeed> <!-- 650 -->
+	<DesiredSpeed>900</DesiredSpeed> <!-- 650 -->
 	<SpeedVariance>0</SpeedVariance>
-	<MaxTrajectory>2000</MaxTrajectory>
+	<MaxTrajectory>3600</MaxTrajectory>
 	<IsExplosive>true</IsExplosive>
 	<BackkickForce>4500</BackkickForce>
         <PhysicalMaterial>Missile</PhysicalMaterial>
       </BasicProperties>
       <MissileProperties>
 	<MissileMass>200</MissileMass>
-	<MissileExplosionRadius>4</MissileExplosionRadius>
+	<MissileExplosionRadius>5</MissileExplosionRadius>
 	<MissileModelName>Models\Weapons\MK3Round.mwm</MissileModelName>
 	<MissileAcceleration>0</MissileAcceleration>
 	<MissileInitialSpeed>650</MissileInitialSpeed> <!-- 400 -->
 	<MissileSkipAcceleration>true</MissileSkipAcceleration>
-	<MissileExplosionDamage>26000</MissileExplosionDamage>
+	<MissileExplosionDamage>145301</MissileExplosionDamage>
 	</MissileProperties>
     </Ammo>
 
