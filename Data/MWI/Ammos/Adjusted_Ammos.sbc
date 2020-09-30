@@ -1,46 +1,47 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Ammos>
-  
+
     <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
       <Id>
         <TypeId>AmmoDefinition</TypeId>
         <SubtypeId>SmallCaliber</SubtypeId>
       </Id>
       <BasicProperties>
-        <DesiredSpeed>650</DesiredSpeed>
+        <DesiredSpeed>1000</DesiredSpeed>
         <SpeedVariance>0</SpeedVariance>
-        <MaxTrajectory>400</MaxTrajectory>
-        <BackkickForce>3.2</BackkickForce>
+        <MaxTrajectory>800</MaxTrajectory>
+        <BackkickForce>50</BackkickForce>
         <PhysicalMaterial>RifleBullet</PhysicalMaterial>
       </BasicProperties>
       <ProjectileProperties>
         <ProjectileTrailScale>0.05</ProjectileTrailScale>
-        <ProjectileHitImpulse>3.2</ProjectileHitImpulse>
-        <ProjectileMassDamage>30</ProjectileMassDamage>
-        <ProjectileHealthDamage>24</ProjectileHealthDamage>
+        <ProjectileHitImpulse>2</ProjectileHitImpulse>
+        <ProjectileMassDamage>150</ProjectileMassDamage>
+        <ProjectileHealthDamage>33</ProjectileHealthDamage>
         <HeadShot>true</HeadShot>
-        <ProjectileHeadShotDamage>60</ProjectileHeadShotDamage>
+        <ProjectileHeadShotDamage>99</ProjectileHeadShotDamage>
       </ProjectileProperties>
     </Ammo>
-	
+
     <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
       <Id>
         <TypeId>AmmoDefinition</TypeId>
         <SubtypeId>LargeCaliber</SubtypeId>
       </Id>
       <BasicProperties>
-        <DesiredSpeed>650</DesiredSpeed>
+        <DesiredSpeed>1000</DesiredSpeed>
         <SpeedVariance>0</SpeedVariance>
-        <MaxTrajectory>800</MaxTrajectory>
-        <BackkickForce>50</BackkickForce>
+        <MaxTrajectory>1000</MaxTrajectory>
+        <BackkickForce>3.2</BackkickForce>
         <PhysicalMaterial>GunBullet</PhysicalMaterial>
       </BasicProperties>
       <ProjectileProperties>
         <ProjectileTrailScale>0.4</ProjectileTrailScale>
-        <ProjectileHitImpulse>185</ProjectileHitImpulse>
-        <ProjectileMassDamage>150</ProjectileMassDamage>
-        <ProjectileHealthDamage>33</ProjectileHealthDamage>
+        <ProjectileHitImpulse>1</ProjectileHitImpulse>
+        <ProjectileMassDamage>10000</ProjectileMassDamage>
+        <ProjectileHealthDamage>80</ProjectileHealthDamage>
         <HeadShot>true</HeadShot>
       </ProjectileProperties>
     </Ammo>
@@ -50,21 +51,21 @@
         <SubtypeId>Missile</SubtypeId>
       </Id>
       <BasicProperties>
-        <DesiredSpeed>450</DesiredSpeed>
+        <DesiredSpeed>700</DesiredSpeed>
         <SpeedVariance>0</SpeedVariance>
-        <MaxTrajectory>800</MaxTrajectory>
+        <MaxTrajectory>3400</MaxTrajectory>
         <IsExplosive>true</IsExplosive>
         <BackkickForce>700</BackkickForce>
         <PhysicalMaterial>Missile</PhysicalMaterial>
       </BasicProperties>
       <MissileProperties>
-        <MissileMass>40</MissileMass>
-        <MissileExplosionRadius>4</MissileExplosionRadius>
+        <MissileMass>45</MissileMass>
+        <MissileExplosionRadius>3</MissileExplosionRadius>
         <MissileModelName>Models\Weapons\Projectile_Missile.mwm</MissileModelName>
         <MissileAcceleration>0</MissileAcceleration>
         <MissileInitialSpeed>450</MissileInitialSpeed>
         <MissileSkipAcceleration>true</MissileSkipAcceleration>
-        <MissileExplosionDamage>1000</MissileExplosionDamage>
+        <MissileExplosionDamage>48984</MissileExplosionDamage>
       </MissileProperties>
     </Ammo>
   </Ammos>

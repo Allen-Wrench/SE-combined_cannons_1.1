@@ -1,28 +1,29 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Ammos>
- <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
-      <Id>
-        <TypeId>AmmoDefinition</TypeId>
-        <SubtypeId>355mm_HE_Shell</SubtypeId>
-      </Id>
-      <BasicProperties>
-	<DesiredSpeed>955.5</DesiredSpeed> <!-- 500 -->
-	<SpeedVariance>0</SpeedVariance>
-	<MaxTrajectory>1900</MaxTrajectory>
-	<IsExplosive>true</IsExplosive>
-	<BackkickForce>3500</BackkickForce>
-        <PhysicalMaterial>Missile</PhysicalMaterial>
-      </BasicProperties>
-      <MissileProperties>
-	<MissileMass>120</MissileMass>
-	<MissileExplosionRadius>4</MissileExplosionRadius>
-	<MissileModelName>Models\Weapons\MK1Round.mwm</MissileModelName>
-	<MissileAcceleration>0</MissileAcceleration>
-	<MissileInitialSpeed>750</MissileInitialSpeed> <!-- 400 -->
-	<MissileSkipAcceleration>false</MissileSkipAcceleration>
-	<MissileExplosionDamage>24000</MissileExplosionDamage>
-	</MissileProperties>
-    </Ammo>
-  </Ammos>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Ammos>
+		<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+			<Id>
+				<TypeId>AmmoDefinition</TypeId>
+				<SubtypeId>355mm_HE_Shell</SubtypeId>
+			</Id>
+			<BasicProperties>
+				<DesiredSpeed>950</DesiredSpeed>				<!-- 500 -->
+				<SpeedVariance>0</SpeedVariance>
+				<MaxTrajectory>3400</MaxTrajectory>
+				<IsExplosive>true</IsExplosive>
+				<BackkickForce>3500</BackkickForce>
+				<PhysicalMaterial>Missile</PhysicalMaterial>
+			</BasicProperties>
+			<MissileProperties>
+				<MissileMass>120</MissileMass>
+				<MissileExplosionRadius>4</MissileExplosionRadius>
+				<MissileModelName>Models\Weapons\MK1Round.mwm</MissileModelName>
+				<MissileAcceleration>0</MissileAcceleration>
+				<MissileInitialSpeed>700</MissileInitialSpeed>				<!-- 400 -->
+				<MissileSkipAcceleration>false</MissileSkipAcceleration>
+				<MissileExplosionDamage>76140</MissileExplosionDamage>
+			</MissileProperties>
+		</Ammo>
+	</Ammos>
 </Definitions>
