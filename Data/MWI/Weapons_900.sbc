@@ -30,9 +30,8 @@
       <AmmoMagazines>
         <AmmoMagazine Subtype="900mmShell_HE" />
       </AmmoMagazines>
-	    <ReloadTime>8.2000</ReloadTime>
+	    <ReloadTime>8200</ReloadTime>
     </Weapon> 
-
 
     <Weapon>
       <Id>

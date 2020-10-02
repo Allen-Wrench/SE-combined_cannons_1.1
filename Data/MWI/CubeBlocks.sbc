@@ -507,7 +507,7 @@
       <AiEnabled>true</AiEnabled>
       <DeformationRatio>0</DeformationRatio>
       <GeneralDamageMultiplier>0.8</GeneralDamageMultiplier>
-      <PCU>625/PCU>
+      <PCU>625</PCU>
     </Definition> 
 
 <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">

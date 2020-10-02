@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
-
     <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
       <Id>
         <TypeId>LargeMissileTurret</TypeId>
@@ -30,7 +30,7 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
-	<Model BuildPercentUpperBound="0.50" File="Models\large\Cannon_1_900_constr_1.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\large\Cannon_1_900_constr_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\large\Cannon_1_900_constr_2.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
@@ -81,10 +81,8 @@
       <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-	  <PCU>3125</PCU>
+      <PCU>3125</PCU>
     </Definition>
-
-
 
 
     <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
@@ -115,7 +113,7 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
-	<Model BuildPercentUpperBound="0.50" File="Models\large\Cannon_2_900_constr_1.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\large\Cannon_2_900_constr_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\large\Cannon_2_900_constr_2.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
@@ -157,7 +155,7 @@
       <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-	  <PCU>6127</PCU>
+      <PCU>6127</PCU>
     </Definition>
 
 
@@ -190,7 +188,7 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
-	<Model BuildPercentUpperBound="0.50" File="Models\large\Cannon_3_900_constr_1.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\large\Cannon_3_900_constr_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\large\Cannon_3_900_constr_2.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
@@ -232,9 +230,7 @@
       <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-	  <PCU>10135</PCU>
+      <PCU>10135</PCU>
     </Definition>
-
-
   </CubeBlocks>
 </Definitions>
