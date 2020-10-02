@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Ammos>
     <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
       <Id>
@@ -7,46 +8,46 @@
         <SubtypeId>LittleDavid</SubtypeId>
       </Id>
       <BasicProperties>
-        <DesiredSpeed>755.5</DesiredSpeed>
+        <DesiredSpeed>850</DesiredSpeed>
         <SpeedVariance>0</SpeedVariance>
-        <MaxTrajectory>2100</MaxTrajectory>
+        <MaxTrajectory>3000</MaxTrajectory>
         <BackkickForce>150000</BackkickForce>
-		<IsExplosive>true</IsExplosive>
+        <IsExplosive>true</IsExplosive>
         <PhysicalMaterial>Missile</PhysicalMaterial>
       </BasicProperties>
       <MissileProperties>
-	<MissileMass>3000</MissileMass>
-	<MissileExplosionRadius>3</MissileExplosionRadius>
-	<MissileModelName>Models\Weapons\Little_DavidTrace.mwm</MissileModelName>
-	<MissileAcceleration>0</MissileAcceleration>
-	<MissileInitialSpeed>550</MissileInitialSpeed>
-	<MissileSkipAcceleration>false</MissileSkipAcceleration>
-	<MissileExplosionDamage>80000</MissileExplosionDamage>
-	</MissileProperties>
+        <MissileMass>300</MissileMass>
+        <MissileExplosionRadius>3</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\Little_DavidTrace.mwm</MissileModelName>
+        <MissileAcceleration>0</MissileAcceleration>
+        <MissileInitialSpeed>600</MissileInitialSpeed>
+        <MissileSkipAcceleration>false</MissileSkipAcceleration>
+        <MissileExplosionDamage>80000</MissileExplosionDamage>
+      </MissileProperties>
     </Ammo>
 
- <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+    <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
       <Id>
         <TypeId>AmmoDefinition</TypeId>
         <SubtypeId>BigBertha</SubtypeId>
       </Id>
       <BasicProperties>
-        <DesiredSpeed>555.5</DesiredSpeed>
+        <DesiredSpeed>800</DesiredSpeed>
         <SpeedVariance>0</SpeedVariance>
-        <MaxTrajectory>3000</MaxTrajectory>
+        <MaxTrajectory>8000</MaxTrajectory>
         <BackkickForce>50000000</BackkickForce>
-		<IsExplosive>true</IsExplosive>
+        <IsExplosive>true</IsExplosive>
         <PhysicalMaterial>Missile</PhysicalMaterial>
       </BasicProperties>
       <MissileProperties>
-	<MissileMass>10000</MissileMass>
-	<MissileExplosionRadius>10</MissileExplosionRadius>
-	<MissileModelName>Models\Weapons\BigBerthaTrace.mwm</MissileModelName>
-	<MissileAcceleration>0</MissileAcceleration>
-	<MissileInitialSpeed>350</MissileInitialSpeed>
-	<MissileSkipAcceleration>false</MissileSkipAcceleration>
-	<MissileExplosionDamage>240000</MissileExplosionDamage>
-	</MissileProperties>
+        <MissileMass>10000</MissileMass>
+        <MissileExplosionRadius>6</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\BigBerthaTrace.mwm</MissileModelName>
+        <MissileAcceleration>0</MissileAcceleration>
+        <MissileInitialSpeed>550</MissileInitialSpeed>
+        <MissileSkipAcceleration>false</MissileSkipAcceleration>
+        <MissileExplosionDamage>2133333</MissileExplosionDamage>
+      </MissileProperties>
     </Ammo>
 
   </Ammos>
