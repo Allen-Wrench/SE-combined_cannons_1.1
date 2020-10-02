@@ -35,21 +35,21 @@
         <SubtypeId>40mm_Airburst_Shell</SubtypeId>
       </Id>
       <BasicProperties>
-        <DesiredSpeed>1155.5</DesiredSpeed>
+        <DesiredSpeed>1100</DesiredSpeed>
         <SpeedVariance>0</SpeedVariance>
-        <MaxTrajectory>700</MaxTrajectory>
+        <MaxTrajectory>1000</MaxTrajectory>
         <BackkickForce>500</BackkickForce>
         <PhysicalMaterial>Missile</PhysicalMaterial>
         <IsExplosive>true</IsExplosive>
       </BasicProperties>
       <MissileProperties>
         <MissileMass>20</MissileMass>
-        <MissileExplosionRadius>2</MissileExplosionRadius>
+        <MissileExplosionRadius>4</MissileExplosionRadius>
         <MissileModelName>Models\Weapons\40mmShell.mwm</MissileModelName>
         <MissileAcceleration>0</MissileAcceleration>
-        <MissileInitialSpeed>1050</MissileInitialSpeed>
+        <MissileInitialSpeed>850</MissileInitialSpeed>
         <MissileSkipAcceleration>false</MissileSkipAcceleration>
-        <MissileExplosionDamage>1600</MissileExplosionDamage>
+        <MissileExplosionDamage>26578</MissileExplosionDamage>
       </MissileProperties>
     </Ammo>
 

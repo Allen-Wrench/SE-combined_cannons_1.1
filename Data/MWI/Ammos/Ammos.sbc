@@ -70,7 +70,7 @@
         <MissileAcceleration>0</MissileAcceleration>
         <MissileInitialSpeed>850</MissileInitialSpeed>
         <MissileSkipAcceleration>false</MissileSkipAcceleration>
-        <MissileExplosionDamage>6123.333333</MissileExplosionDamage>
+        <MissileExplosionDamage>6123</MissileExplosionDamage>
       </MissileProperties>
 
     </Ammo>
@@ -95,7 +95,7 @@
         <MissileAcceleration>0</MissileAcceleration>
         <MissileInitialSpeed>700</MissileInitialSpeed>
         <MissileSkipAcceleration>false</MissileSkipAcceleration>
-        <MissileExplosionDamage>8693.333333</MissileExplosionDamage>
+        <MissileExplosionDamage>8693</MissileExplosionDamage>
       </MissileProperties>
     </Ammo>
 
