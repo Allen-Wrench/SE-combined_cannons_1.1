@@ -9,10 +9,10 @@
         <SubtypeId>Vulcan20x102</SubtypeId>
       </Id>
       <BasicProperties>
-        <DesiredSpeed>1055.5</DesiredSpeed>
+        <DesiredSpeed>1200</DesiredSpeed>
         <SpeedVariance>0</SpeedVariance>
-        <MaxTrajectory>600</MaxTrajectory>
-        <BackkickForce>1000</BackkickForce>
+        <MaxTrajectory>1500</MaxTrajectory>
+        <BackkickForce>200</BackkickForce>
 		<PhysicalMaterial>Missile</PhysicalMaterial>
 		<IsExplosive>true</IsExplosive>
       </BasicProperties>
@@ -21,11 +21,11 @@
 		<MissileExplosionRadius>2</MissileExplosionRadius>
 		<MissileModelName>Models\Weapons\VulcanTrace.mwm</MissileModelName>
 		<MissileAcceleration>0</MissileAcceleration>
-		<MissileInitialSpeed>850</MissileInitialSpeed>
+		<MissileInitialSpeed>950</MissileInitialSpeed>
 		<MissileSkipAcceleration>false</MissileSkipAcceleration>
-		<MissileExplosionDamage>600</MissileExplosionDamage>
-	</MissileProperties>  
-	
+		<MissileExplosionDamage>1700</MissileExplosionDamage>
+	</MissileProperties>
+
     </Ammo>
   </Ammos>
 </Definitions>

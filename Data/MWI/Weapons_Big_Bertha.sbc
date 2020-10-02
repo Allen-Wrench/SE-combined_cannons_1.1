@@ -9,16 +9,16 @@
       </Id>
       <MissileAmmoData RateOfFire="5" ShootSoundName="LittleDavid" ShotsInBurst="1" />
       <ReleaseTimeAfterFire>7500</ReleaseTimeAfterFire>
-	  <DeviateShotAngle>0.2</DeviateShotAngle>
+	  <DeviateShotAngle>5</DeviateShotAngle>
       <MuzzleFlashLifeSpan>100</MuzzleFlashLifeSpan>
       <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
       <AmmoMagazines>
         <AmmoMagazine Subtype="LittleDavid" />
       </AmmoMagazines>
-	  <ReloadTime>8000</ReloadTime>
+	  <ReloadTime>20000</ReloadTime>
     </Weapon>
 
- 
+
     <Weapon>
       <Id>
         <TypeId>WeaponDefinition</TypeId>
@@ -26,13 +26,13 @@
       </Id>
       <MissileAmmoData RateOfFire="8" ShootSoundName="LittleDavid" ShotsInBurst="1" />
       <ReleaseTimeAfterFire>7500</ReleaseTimeAfterFire>
-	  <DeviateShotAngle>0.5</DeviateShotAngle>
+	  <DeviateShotAngle>5</DeviateShotAngle>
       <MuzzleFlashLifeSpan>100</MuzzleFlashLifeSpan>
       <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
       <AmmoMagazines>
         <AmmoMagazine Subtype="LittleDavid" />
       </AmmoMagazines>
-	  <ReloadTime>18000</ReloadTime>
+	  <ReloadTime>24000</ReloadTime>
     </Weapon>
 
 
@@ -48,14 +48,14 @@
 
       <MissileAmmoData RateOfFire="20" ShootSoundName="BigBertha" ShotsInBurst="1" />
       <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>0.1</DeviateShotAngle>
+      <DeviateShotAngle>0.2</DeviateShotAngle>
       <ReleaseTimeAfterFire>15000</ReleaseTimeAfterFire>
       <MuzzleFlashLifeSpan>5000</MuzzleFlashLifeSpan>
       <AmmoMagazines>
         <AmmoMagazine Subtype="BigBertha" />
       </AmmoMagazines>
 	  <ReloadTime>20000</ReloadTime>
-    </Weapon> 
+    </Weapon>
 
 
   </Weapons>
