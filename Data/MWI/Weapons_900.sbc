@@ -7,15 +7,14 @@
         <SubtypeId>AutoCannon_1_900</SubtypeId>
       </Id>
       <MissileAmmoData RateOfFire="30" ShootSoundName="900mmCannon" ShotsInBurst="1" />  
-
       <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>0.3</DeviateShotAngle>
+      <DeviateShotAngle>0.5</DeviateShotAngle>
       <ReleaseTimeAfterFire>10000</ReleaseTimeAfterFire>
       <MuzzleFlashLifeSpan>500</MuzzleFlashLifeSpan>
       <AmmoMagazines>
         <AmmoMagazine Subtype="900mmShell_HE" />
       </AmmoMagazines>
-	  <ReloadTime>6000</ReloadTime>
+	    <ReloadTime>10000</ReloadTime>
     </Weapon> 
 
     <Weapon>
@@ -23,16 +22,15 @@
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>AutoCannon_2_900</SubtypeId>
       </Id>
-
       <MissileAmmoData RateOfFire="30" ShootSoundName="900mmCannon" ShotsInBurst="2" />
       <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>0.4</DeviateShotAngle>
+      <DeviateShotAngle>0.6</DeviateShotAngle>
       <ReleaseTimeAfterFire>10000</ReleaseTimeAfterFire>
       <MuzzleFlashLifeSpan>500</MuzzleFlashLifeSpan>
       <AmmoMagazines>
         <AmmoMagazine Subtype="900mmShell_HE" />
       </AmmoMagazines>
-	  <ReloadTime>11000</ReloadTime>
+	    <ReloadTime>8.2000</ReloadTime>
     </Weapon> 
 
 
@@ -41,17 +39,15 @@
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>AutoCannon_3_900</SubtypeId>
       </Id>
-
       <MissileAmmoData RateOfFire="30" ShootSoundName="900mmCannon" ShotsInBurst="3" />
       <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>0.5</DeviateShotAngle>
+      <DeviateShotAngle>0.6</DeviateShotAngle>
       <ReleaseTimeAfterFire>10000</ReleaseTimeAfterFire>
       <MuzzleFlashLifeSpan>500</MuzzleFlashLifeSpan>
       <AmmoMagazines>
         <AmmoMagazine Subtype="900mmShell_HE" />
       </AmmoMagazines>
-	  <ReloadTime>15500</ReloadTime>
-    </Weapon> 
- 
+	    <ReloadTime>7000</ReloadTime>
+    </Weapon>
   </Weapons>
 </Definitions>

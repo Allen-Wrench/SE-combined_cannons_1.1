@@ -78,14 +78,14 @@
 		  <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
 		  <RotationSpeed>0.001</RotationSpeed>
 		  <ElevationSpeed>0.001 </ElevationSpeed>
-		  <MaxRangeMeters>2000</MaxRangeMeters>
+		  <MaxRangeMeters>6000</MaxRangeMeters>
 		  <AiEnabled>true</AiEnabled>
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <IdleRotation>false</IdleRotation>
 		  <EmissiveColorPreset>Default</EmissiveColorPreset>
 		  <MinFov>0.1</MinFov>
 		  <MaxFov>1.04719755</MaxFov>
-		  <PCU>800</PCU>
+		  <PCU>3125</PCU>
     </Definition>
 
   </CubeBlocks>

@@ -12,13 +12,10 @@
       <ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
       <MuzzleFlashLifeSpan>5000</MuzzleFlashLifeSpan>
       <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
-      <ReloadTime>3000</ReloadTime>
+      <ReloadTime>4800</ReloadTime>
       <AmmoMagazines>
-	  
         <AmmoMagazine Subtype="HEShell88mm" />
-		
       </AmmoMagazines>
     </Weapon>
- 
   </Weapons>
 </Definitions>

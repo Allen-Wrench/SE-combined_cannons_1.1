@@ -71,7 +71,7 @@
       <RotationSpeed>0.0006</RotationSpeed>
       <ElevationSpeed>0.0006</ElevationSpeed>
       <IdleRotation>true</IdleRotation>
-      <MaxRangeMeters>2200</MaxRangeMeters>
+      <MaxRangeMeters>6000</MaxRangeMeters>
       <AiEnabled>true</AiEnabled>
       <DamageEffectId>213</DamageEffectId>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -81,7 +81,7 @@
       <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-	  <PCU>750</PCU>
+	  <PCU>3125</PCU>
     </Definition>
 
 
@@ -146,7 +146,7 @@
       <RotationSpeed>0.0005</RotationSpeed>
       <ElevationSpeed>0.0005</ElevationSpeed>
       <IdleRotation>true</IdleRotation>
-      <MaxRangeMeters>2200</MaxRangeMeters>
+      <MaxRangeMeters>6000</MaxRangeMeters>
       <AiEnabled>true</AiEnabled>
       <DamageEffectId>213</DamageEffectId>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -157,7 +157,7 @@
       <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-	  <PCU>800</PCU>
+	  <PCU>6127</PCU>
     </Definition>
 
 
@@ -221,7 +221,7 @@
       <RotationSpeed>0.0004</RotationSpeed>
       <ElevationSpeed>0.0004</ElevationSpeed>
       <IdleRotation>true</IdleRotation>
-      <MaxRangeMeters>2200</MaxRangeMeters>
+      <MaxRangeMeters>6000</MaxRangeMeters>
       <AiEnabled>true</AiEnabled>
       <DamageEffectId>213</DamageEffectId>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -232,7 +232,7 @@
       <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-	  <PCU>850</PCU>
+	  <PCU>10135</PCU>
     </Definition>
 
 

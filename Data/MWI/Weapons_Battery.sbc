@@ -1,23 +1,20 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Weapons>
-  
     <Weapon>
       <Id>
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>BatteryCannon1</SubtypeId>
       </Id>
-      <MissileAmmoData RateOfFire="30" ShootSoundName="TelionBattery" ShotsInBurst="2" />  
+      <MissileAmmoData RateOfFire="60" ShootSoundName="TelionBattery" ShotsInBurst="2" />  
       <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>0.2</DeviateShotAngle>
+      <DeviateShotAngle>0.3</DeviateShotAngle>
       <ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
       <MuzzleFlashLifeSpan>5000</MuzzleFlashLifeSpan>
       <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
-	  <ReloadTime>11000</ReloadTime>
+	    <ReloadTime>6000</ReloadTime>
       <AmmoMagazines>
-	  
         <AmmoMagazine Subtype="HEShell420mm" />
-		
       </AmmoMagazines>
     </Weapon>
 	
@@ -26,19 +23,16 @@
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>BatteryCannon2</SubtypeId>
       </Id>
-      <MissileAmmoData RateOfFire="30" ShootSoundName="TelionBattery" ShotsInBurst="8" />  
+      <MissileAmmoData RateOfFire="80" ShootSoundName="TelionBattery" ShotsInBurst="8" />  
       <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>0.35</DeviateShotAngle>
+      <DeviateShotAngle>0.4</DeviateShotAngle>
       <ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
       <MuzzleFlashLifeSpan>5000</MuzzleFlashLifeSpan>
       <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
-	  <ReloadTime>34000</ReloadTime>
+	    <ReloadTime>2000</ReloadTime>
       <AmmoMagazines>
-	  
         <AmmoMagazine Subtype="HEShell420mm" />
-		
       </AmmoMagazines>
     </Weapon>
-	
   </Weapons>
 </Definitions>

@@ -49,7 +49,7 @@
       <MaxAzimuthDegrees>45</MaxAzimuthDegrees>
       <AiEnabled>true</AiEnabled>
       <IdleRotation>true</IdleRotation>
-      <MaxRangeMeters>2200</MaxRangeMeters>
+      <MaxRangeMeters>6000</MaxRangeMeters>
       <RotationSpeed>0.0005</RotationSpeed>
       <ElevationSpeed>0.0005</ElevationSpeed>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
@@ -57,7 +57,7 @@
       <MaxFov>1.04719755</MaxFov>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-	  <PCU>750</PCU>
+	  <PCU>2003</PCU>
     </Definition>
 
 

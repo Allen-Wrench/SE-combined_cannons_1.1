@@ -1,23 +1,20 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Weapons>
-
- 
     <Weapon>
       <Id>
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>MiniVulcan</SubtypeId>
       </Id>
-      <MissileAmmoData RateOfFire="320" ShootSoundName="Vulcan" ShotsInBurst="60" />
+      <MissileAmmoData RateOfFire="120" ShootSoundName="Vulcan" ShotsInBurst="60" />
       <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
-	  <DeviateShotAngle>0.2</DeviateShotAngle>
+	    <DeviateShotAngle>0.75</DeviateShotAngle>
       <MuzzleFlashLifeSpan>1</MuzzleFlashLifeSpan>
       <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
       <AmmoMagazines>
         <AmmoMagazine Subtype="Vulcan20x102" />
       </AmmoMagazines>
-	  <ReloadTime>3000</ReloadTime>
+	  <ReloadTime>5500</ReloadTime>
     </Weapon>
-
   </Weapons>
 </Definitions>

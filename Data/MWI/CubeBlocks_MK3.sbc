@@ -78,13 +78,13 @@
 		  <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
 		  <RotationSpeed>0.0008</RotationSpeed>
 		  <ElevationSpeed>0.0008</ElevationSpeed>
-		  <MaxRangeMeters>2000</MaxRangeMeters>
+		  <MaxRangeMeters>3600</MaxRangeMeters>
 		  <AiEnabled>true</AiEnabled>
 		  <IdleRotation>false</IdleRotation>
 		  <EmissiveColorPreset>Default</EmissiveColorPreset>
 		  <MinFov>0.1</MinFov>
 		  <MaxFov>1.04719755</MaxFov>
-		  <PCU>750</PCU>
+		  <PCU>6811</PCU>
 		  
     </Definition>
 

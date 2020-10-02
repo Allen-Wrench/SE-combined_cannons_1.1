@@ -8,14 +8,12 @@
       </Id>
       <MissileAmmoData RateOfFire="20" ShootSoundName="HDTCannonShot" ShotsInBurst="5" />  
       <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>0.65</DeviateShotAngle>
+      <DeviateShotAngle>0.75</DeviateShotAngle>
       <ReleaseTimeAfterFire>1250</ReleaseTimeAfterFire>
       <MuzzleFlashLifeSpan>5000</MuzzleFlashLifeSpan>
-	  <ReloadTime>4500</ReloadTime>
+	    <ReloadTime>12000</ReloadTime>
       <AmmoMagazines>
-	  
         <AmmoMagazine Subtype="HEShell240mm" />
-		
       </AmmoMagazines>
     </Weapon>
   </Weapons>

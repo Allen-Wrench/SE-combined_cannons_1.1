@@ -6,7 +6,7 @@
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>OKIObserverWEP</SubtypeId>
       </Id>
-      <ProjectileAmmoData RateOfFire="60" ShootSoundName="Observer" ShotsInBurst="1" />
+      <ProjectileAmmoData RateOfFire="720" ShootSoundName="Observer" ShotsInBurst="12" />
       <NoAmmoSoundName>Fake</NoAmmoSoundName>
       <DeviateShotAngle>0</DeviateShotAngle>
       <ReleaseTimeAfterFire>1</ReleaseTimeAfterFire>
@@ -15,7 +15,7 @@
       <AmmoMagazines>
         <AmmoMagazine Subtype="OKIObserverMAG" />
       </AmmoMagazines>    
-      <ReloadTime>0</ReloadTime>      
+      <ReloadTime>6</ReloadTime>      
     </Weapon>
 
     <Weapon>
@@ -25,7 +25,7 @@
       </Id>
       <ProjectileAmmoData RateOfFire="450" ShootSoundName="OKI23mmshot" ShotsInBurst="120" />
       <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>0.01</DeviateShotAngle>
+      <DeviateShotAngle>1.5</DeviateShotAngle>
       <ReleaseTimeAfterFire>40</ReleaseTimeAfterFire>
       <MuzzleFlashLifeSpan>10</MuzzleFlashLifeSpan>
       <AmmoMagazines>
@@ -39,15 +39,15 @@
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>OKI23mmDG</SubtypeId>
       </Id>
-      <ProjectileAmmoData RateOfFire="1800" ShootSoundName="OKI23mmshot" ShotsInBurst="60" />
+      <ProjectileAmmoData RateOfFire="900" ShootSoundName="OKI23mmshot" ShotsInBurst="120" />
       <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>2.5</DeviateShotAngle>
+      <DeviateShotAngle>1.5</DeviateShotAngle>
       <ReleaseTimeAfterFire>40</ReleaseTimeAfterFire>
       <MuzzleFlashLifeSpan>1</MuzzleFlashLifeSpan>
       <AmmoMagazines>
         <AmmoMagazine Subtype="OKI23mmAmmo" />
       </AmmoMagazines>      
-      <ReloadTime>5000</ReloadTime>
+      <ReloadTime>2000</ReloadTime>
     </Weapon>
     <Weapon>
       <Id>
@@ -56,7 +56,7 @@
       </Id>
       <ProjectileAmmoData RateOfFire="450" ShootSoundName="OKI23mmshot" ShotsInBurst="120" />
       <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>0.05</DeviateShotAngle>
+      <DeviateShotAngle>1.5</DeviateShotAngle>
       <ReleaseTimeAfterFire>40</ReleaseTimeAfterFire>
       <MuzzleFlashLifeSpan>1</MuzzleFlashLifeSpan>
       <AmmoMagazines>
@@ -70,7 +70,7 @@
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>OKI50mmAG</SubtypeId>
       </Id>
-      <MissileAmmoData RateOfFire="120" ShootSoundName="OKI50mmshot" ShotsInBurst="18" /> 
+      <MissileAmmoData RateOfFire="100" ShootSoundName="OKI50mmshot" ShotsInBurst="24" /> 
       <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
       <DeviateShotAngle>0.1</DeviateShotAngle>
       <ReleaseTimeAfterFire>240</ReleaseTimeAfterFire>
@@ -82,7 +82,7 @@
       <AmmoMagazines>
         <AmmoMagazine Subtype="OKI50mmAmmo" />
       </AmmoMagazines>
-      <ReloadTime>3500</ReloadTime>
+      <ReloadTime>4400</ReloadTime>
     </Weapon>
 
     <Weapon>
@@ -90,9 +90,9 @@
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>OKI50mmGAT</SubtypeId>
       </Id>
-      <MissileAmmoData RateOfFire="150" ShootSoundName="OKI50mmshot" ShotsInBurst="36" /> 
+      <MissileAmmoData RateOfFire="360" ShootSoundName="OKI50mmshot" ShotsInBurst="36" /> 
       <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>0.5</DeviateShotAngle>
+      <DeviateShotAngle>0.1</DeviateShotAngle>
       <ReleaseTimeAfterFire>240</ReleaseTimeAfterFire>
       <MuzzleFlashLifeSpan>5</MuzzleFlashLifeSpan> 
       <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
@@ -102,7 +102,7 @@
       <AmmoMagazines>
         <AmmoMagazine Subtype="OKI50mmAmmo" />
       </AmmoMagazines>
-      <ReloadTime>12000</ReloadTime>
+      <ReloadTime>1330</ReloadTime>
     </Weapon>
 
     <Weapon>
@@ -110,7 +110,7 @@
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>OKI50mmSG</SubtypeId>
       </Id>
-      <MissileAmmoData RateOfFire="180" ShootSoundName="OKI50mmshot" ShotsInBurst="18"/>
+      <MissileAmmoData RateOfFire="120" ShootSoundName="OKI50mmshot" ShotsInBurst="16"/>
       <ShotSoundName>OKI50mmshot1</ShotSoundName>
       <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
       <DeviateShotAngle>0.1</DeviateShotAngle>
@@ -123,7 +123,7 @@
       <AmmoMagazines>
         <AmmoMagazine Subtype="OKI50mmAmmo" />
       </AmmoMagazines>
-      <ReloadTime>4000</ReloadTime>
+      <ReloadTime>4500</ReloadTime>
     </Weapon>
 
     <Weapon>
@@ -131,10 +131,10 @@
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>OKI50mmSGFIXED</SubtypeId>
       </Id>
-      <MissileAmmoData RateOfFire="92" ShootSoundName="OKI50mmshot" ShotsInBurst="18"/>
+      <MissileAmmoData RateOfFire="15" ShootSoundName="OKI50mmshot" ShotsInBurst="18"/>
       <ShotSoundName>OKI50mmshot1</ShotSoundName>
       <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>0.01</DeviateShotAngle>
+      <DeviateShotAngle>0.1</DeviateShotAngle>
       <ReleaseTimeAfterFire>240</ReleaseTimeAfterFire>
       <MuzzleFlashLifeSpan>1</MuzzleFlashLifeSpan>
       <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
@@ -144,7 +144,7 @@
       <AmmoMagazines>
         <AmmoMagazine Subtype="OKI50mmAmmo" />
       </AmmoMagazines>
-      <ReloadTime>4000</ReloadTime>
+      <ReloadTime>16000</ReloadTime>
     </Weapon>
 
 
@@ -156,7 +156,7 @@
       <MissileAmmoData RateOfFire="30" ShootSoundName="OKI76mmshot" ShotsInBurst="1"/>
       <ShotSoundName>OKI76mmshot</ShotSoundName>
       <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>0.5</DeviateShotAngle>
+      <DeviateShotAngle>0.2</DeviateShotAngle>
       <ReleaseTimeAfterFire>1000</ReleaseTimeAfterFire>
       <MuzzleFlashLifeSpan>1</MuzzleFlashLifeSpan>
       <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
@@ -166,7 +166,7 @@
       <AmmoMagazines>
         <AmmoMagazine Subtype="OKI122mmAmmo" />
       </AmmoMagazines>
-      <ReloadTime>2000</ReloadTime>
+      <ReloadTime>5200</ReloadTime>
     </Weapon>
 
     <Weapon>
@@ -177,7 +177,7 @@
       <MissileAmmoData RateOfFire="120" ShootSoundName="OKI230mmshot" ShotsInBurst="1"/>
       <ShotSoundName>OKI230mmshot</ShotSoundName>
       <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>0.25</DeviateShotAngle>
+      <DeviateShotAngle>0.5</DeviateShotAngle>
       <ReleaseTimeAfterFire>1000</ReleaseTimeAfterFire>
       <MuzzleFlashLifeSpan>5</MuzzleFlashLifeSpan>
       <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
@@ -195,10 +195,10 @@
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>OKI230mmBAT</SubtypeId>
       </Id>
-      <MissileAmmoData RateOfFire="50" ShootSoundName="OKI230mmshot" ShotsInBurst="3" />
+      <MissileAmmoData RateOfFire="320" ShootSoundName="OKI230mmshot" ShotsInBurst="9" />
       <ShotSoundName>OKI230mmshot1</ShotSoundName>
       <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>1.0</DeviateShotAngle>
+      <DeviateShotAngle>1</DeviateShotAngle>
       <ReleaseTimeAfterFire>1000</ReleaseTimeAfterFire>
       <MuzzleFlashLifeSpan>5</MuzzleFlashLifeSpan>
       <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
@@ -208,7 +208,7 @@
       <AmmoMagazines>
         <AmmoMagazine Subtype="OKI230mmAmmo" />
       </AmmoMagazines>      
-      <ReloadTime>7500</ReloadTime>
+      <ReloadTime>1910</ReloadTime>
     </Weapon>
 
   </Weapons>

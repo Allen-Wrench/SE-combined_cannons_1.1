@@ -49,7 +49,7 @@
       <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-	  <PCU>350</PCU>
+	  <PCU>100</PCU>
     </Definition>
 
 
