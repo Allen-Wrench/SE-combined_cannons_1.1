@@ -225,7 +225,7 @@
       <Id>
         <TypeId>SmallGatlingGun</TypeId>
         <SubtypeId>OKI122mmAGfixed</SubtypeId>
-	</Id>
+	    </Id>
       <DisplayName>OKI 122mm Fixed Assault Cannon</DisplayName>
       <Icon>icons\OKI122mmASG_fixed.dds</Icon>
       <Description>Bulky fixed weapon for small vessels. Powerful at close range, but useless above 600 meters. Deals heavy damage to light armor and moderate damage to heavy armor.</Description>
@@ -503,7 +503,7 @@
       <RotationSpeed>0.001</RotationSpeed>
       <ElevationSpeed>0.001</ElevationSpeed>
       <IdleRotation>false</IdleRotation>
-      <MaxRangeMeters>800</MaxRangeMeters>
+      <MaxRangeMeters>1800</MaxRangeMeters>
       <AiEnabled>true</AiEnabled>
       <DeformationRatio>0</DeformationRatio>
       <GeneralDamageMultiplier>0.8</GeneralDamageMultiplier>
@@ -564,11 +564,11 @@
       <RotationSpeed>0.001</RotationSpeed>
       <ElevationSpeed>0.001</ElevationSpeed>
       <IdleRotation>false</IdleRotation>
-      <MaxRangeMeters>1800</MaxRangeMeters>
+      <MaxRangeMeters>2200</MaxRangeMeters>
       <AiEnabled>true</AiEnabled>
       <DeformationRatio>0</DeformationRatio>
       <GeneralDamageMultiplier>0.8</GeneralDamageMultiplier>
-      <PCU>620</PCU>
+      <PCU>613</PCU>
     </Definition> 
 
 <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
