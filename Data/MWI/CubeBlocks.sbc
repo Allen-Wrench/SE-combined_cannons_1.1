@@ -271,7 +271,7 @@
 
 <!-- =====================================small grid turrets============================================ -->
 
-<Definition xsi:type="MyObjilder_LargeTurretBaseDefinition">
+<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
       <Id>
         <TypeId>LargeGatlingTurret</TypeId>
         <SubtypeId>OKI23mmSG</SubtypeId>
