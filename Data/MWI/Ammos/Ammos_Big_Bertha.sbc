@@ -16,16 +16,15 @@
         <PhysicalMaterial>Missile</PhysicalMaterial>
       </BasicProperties>
       <MissileProperties>
-        <MissileMass>300</MissileMass>
-        <MissileExplosionRadius>3</MissileExplosionRadius>
-        <MissileModelName>Models\Weapons\Little_DavidTrace.mwm</MissileModelName>
-        <MissileAcceleration>0</MissileAcceleration>
-        <MissileInitialSpeed>600</MissileInitialSpeed>
-        <MissileSkipAcceleration>false</MissileSkipAcceleration>
-        <MissileExplosionDamage>80000</MissileExplosionDamage>
-      </MissileProperties>
+	<MissileMass>300</MissileMass>
+	<MissileExplosionRadius>3</MissileExplosionRadius>
+	<MissileModelName>Models\Weapons\Little_DavidTrace.mwm</MissileModelName>
+	<MissileAcceleration>0</MissileAcceleration>
+	<MissileInitialSpeed>600</MissileInitialSpeed>
+	<MissileSkipAcceleration>false</MissileSkipAcceleration>
+	<MissileExplosionDamage>80000</MissileExplosionDamage>
+	</MissileProperties>
     </Ammo>
-
     <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
       <Id>
         <TypeId>AmmoDefinition</TypeId>
@@ -40,15 +39,14 @@
         <PhysicalMaterial>Missile</PhysicalMaterial>
       </BasicProperties>
       <MissileProperties>
-        <MissileMass>10000</MissileMass>
-        <MissileExplosionRadius>6</MissileExplosionRadius>
-        <MissileModelName>Models\Weapons\BigBerthaTrace.mwm</MissileModelName>
-        <MissileAcceleration>0</MissileAcceleration>
-        <MissileInitialSpeed>550</MissileInitialSpeed>
-        <MissileSkipAcceleration>false</MissileSkipAcceleration>
-        <MissileExplosionDamage>2133333</MissileExplosionDamage>
-      </MissileProperties>
+	<MissileMass>10000</MissileMass>
+	<MissileExplosionRadius>6</MissileExplosionRadius>
+	<MissileModelName>Models\Weapons\BigBerthaTrace.mwm</MissileModelName>
+	<MissileAcceleration>0</MissileAcceleration>
+	<MissileInitialSpeed>550</MissileInitialSpeed>
+	<MissileSkipAcceleration>false</MissileSkipAcceleration>
+	<MissileExplosionDamage>2133333</MissileExplosionDamage>
+	</MissileProperties>
     </Ammo>
-
   </Ammos>
 </Definitions>

@@ -2,8 +2,6 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Ammos>
-
-
     <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
       <Id>
         <TypeId>AmmoDefinition</TypeId>
@@ -17,18 +15,15 @@
         <PhysicalMaterial>Missile</PhysicalMaterial>
         <IsExplosive>true</IsExplosive>
       </BasicProperties>
-      <MissileProperties>
-        <MissileMass>20</MissileMass>
-        <MissileExplosionRadius>4</MissileExplosionRadius>
-        <MissileModelName>Models\Weapons\AdenTrace.mwm</MissileModelName>
-        <MissileAcceleration>0</MissileAcceleration>
-        <MissileInitialSpeed>950</MissileInitialSpeed>
-        <MissileSkipAcceleration>false</MissileSkipAcceleration>
-        <MissileExplosionDamage>2408</MissileExplosionDamage>
-      </MissileProperties>
+	<MissileProperties>
+		<MissileMass>20</MissileMass>
+		<MissileExplosionRadius>4</MissileExplosionRadius>
+		<MissileModelName>Models\Weapons\AdenTrace.mwm</MissileModelName>
+		<MissileAcceleration>0</MissileAcceleration>
+		<MissileInitialSpeed>950</MissileInitialSpeed>
+		<MissileSkipAcceleration>false</MissileSkipAcceleration>
+		<MissileExplosionDamage>2408</MissileExplosionDamage>
+	</MissileProperties>
     </Ammo>
-
-
-
   </Ammos>
 </Definitions>

@@ -2,32 +2,28 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Ammos>
-
-
-		<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
-			<Id>
-				<TypeId>AmmoDefinition</TypeId>
-				<SubtypeId>460mm_HE_Shell</SubtypeId>
-			</Id>
-			<BasicProperties>
-				<DesiredSpeed>900</DesiredSpeed>
-				<SpeedVariance>0</SpeedVariance>
-				<MaxTrajectory>4000</MaxTrajectory>
-				<IsExplosive>true</IsExplosive>
-				<BackkickForce>50000</BackkickForce>
-				<PhysicalMaterial>Missile</PhysicalMaterial>
-			</BasicProperties>
-			<MissileProperties>
-				<MissileMass>300</MissileMass>
-				<MissileExplosionRadius>5</MissileExplosionRadius>
-				<MissileModelName>Models\Weapons\460RoundTrail.mwm</MissileModelName>
-				<MissileAcceleration>0</MissileAcceleration>
-				<MissileInitialSpeed>650</MissileInitialSpeed>
-				<MissileSkipAcceleration>false</MissileSkipAcceleration>
-				<MissileExplosionDamage>234612</MissileExplosionDamage>
-			</MissileProperties>
-		</Ammo>
-
-
+ <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>460mm_HE_Shell</SubtypeId>
+      </Id>
+      <BasicProperties>
+	<DesiredSpeed>900</DesiredSpeed>
+	<SpeedVariance>0</SpeedVariance>
+	<MaxTrajectory>4000</MaxTrajectory>
+	<IsExplosive>true</IsExplosive>
+	<BackkickForce>50000</BackkickForce>
+        <PhysicalMaterial>Missile</PhysicalMaterial>
+      </BasicProperties>
+      <MissileProperties>
+	<MissileMass>300</MissileMass>
+	<MissileExplosionRadius>5</MissileExplosionRadius>
+	<MissileModelName>Models\Weapons\460RoundTrail.mwm</MissileModelName>
+	<MissileAcceleration>0</MissileAcceleration>
+	<MissileInitialSpeed>650</MissileInitialSpeed>
+	<MissileSkipAcceleration>false</MissileSkipAcceleration>
+	<MissileExplosionDamage>234612</MissileExplosionDamage>
+	</MissileProperties>
+    </Ammo>
 	</Ammos>
 </Definitions>
