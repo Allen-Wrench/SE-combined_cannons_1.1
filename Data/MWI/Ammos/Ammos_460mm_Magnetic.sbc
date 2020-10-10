@@ -8,7 +8,7 @@
         <SubtypeId>460mm_Magnetic_Slug</SubtypeId>
       </Id>
       <BasicProperties>
-	<DesiredSpeed>1150</DesiredSpeed>
+	<DesiredSpeed>1050</DesiredSpeed>
 	<SpeedVariance>0</SpeedVariance>
 	<MaxTrajectory>6000</MaxTrajectory>
 	<IsExplosive>true</IsExplosive>
@@ -17,10 +17,10 @@
       </BasicProperties>
       <MissileProperties>
 	<MissileMass>250</MissileMass>
-	<MissileExplosionRadius>5</MissileExplosionRadius>
+	<MissileExplosionRadius>1</MissileExplosionRadius>
 	<MissileModelName>Models\Weapons\BFG_Round_trail.mwm</MissileModelName>
 	<MissileAcceleration>0</MissileAcceleration>
-	<MissileInitialSpeed>900</MissileInitialSpeed>
+	<MissileInitialSpeed>800</MissileInitialSpeed>
 	<MissileSkipAcceleration>false</MissileSkipAcceleration>
 	<MissileExplosionDamage>750000</MissileExplosionDamage>
 	</MissileProperties>

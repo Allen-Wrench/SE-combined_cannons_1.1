@@ -8,7 +8,7 @@
       </Id>
       <MissileAmmoData RateOfFire="30" ShootSoundName="MK1CoilCannon" ShotsInBurst = "1" />  
       <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>0.01</DeviateShotAngle>
+      <DeviateShotAngle>0.2</DeviateShotAngle>
       <ReleaseTimeAfterFire>15000</ReleaseTimeAfterFire>
       <MuzzleFlashLifeSpan>5000</MuzzleFlashLifeSpan>
       <ReloadTime>30000</ReloadTime>
