@@ -34,5 +34,23 @@
         <AmmoMagazine Subtype="HEShell420mm" />
       </AmmoMagazines>
     </Weapon>
+
+
+<Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>BatteryCannon1Stack</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="60" ShootSoundName="TelionBattery" ShotsInBurst="2" />  
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.3</DeviateShotAngle>
+      <ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>5000</MuzzleFlashLifeSpan>
+      <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
+	    <ReloadTime>14000</ReloadTime>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="HEShell420mm" />
+      </AmmoMagazines>
+    </Weapon>
   </Weapons>
 </Definitions>

@@ -142,7 +142,7 @@
 		  <MirroringZ>YThenOffsetX</MirroringZ>
 		  <Center x="0" y="0" z="5" />
 		  <EdgeType>Light</EdgeType>
-		  <WeaponDefinitionId Subtype="BatteryCannon1" />
+		  <WeaponDefinitionId Subtype="BatteryCannon1Stack" />
 		  <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
 		  <DamagedSound>ParticleWeapExpl</DamagedSound>
 		  <DestroyEffect>Explosion_Warhead_15</DestroyEffect>

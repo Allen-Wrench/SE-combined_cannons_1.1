@@ -735,7 +735,7 @@
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <EdgeType>Heavy</EdgeType>
-      <WeaponDefinitionId Subtype="OKI230mmBC" />
+      <WeaponDefinitionId Subtype="OKI230mmBCfixed" />
       <InventoryMaxVolume>0.960</InventoryMaxVolume>
       <DamageEffectId>213</DamageEffectId>
       <DeformationRatio>0</DeformationRatio>
@@ -853,7 +853,7 @@
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>45</BuildTimeSeconds>
       <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
-      <WeaponDefinitionId Subtype="OKI230mmBC" />
+      <WeaponDefinitionId Subtype="OKI230mmBCBRD" />
       <InventoryMaxVolume>0.720</InventoryMaxVolume>
       <DamageEffectId>213</DamageEffectId>
       <MinElevationDegrees>-45</MinElevationDegrees> 
